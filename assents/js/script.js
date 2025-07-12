@@ -1,3 +1,5 @@
+alert("Este sistema ainda está em fase de teste, e os valores constados neles não representam o valor real do produtos da fertem!")
+
 /*CARREGAMENTO DOS PRODUTOS NA PÁGINA*/
 let Produtos = []
 
