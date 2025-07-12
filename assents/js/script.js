@@ -1,7 +1,7 @@
 /*CARREGAMENTO DOS PRODUTOS NA PÁGINA*/
 let Produtos = []
 
-fetch("produtos_com_todos_os_precos.json")
+fetch("produtos-valores.json")
     .then(response => response.json())
     .then(data => {
         todosProdutos = data;

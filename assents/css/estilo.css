@@ -12,28 +12,7 @@ body {
 }
 
 /*DISPLAYS FLEX*/
-/*CARRINHO*/
-.container-carrinho,
-.fechar-carrinho,
-.produto-interno,
-.produto-valor,
-.valor-add,
-.abertura-carrinho,
-
-/*INICIO*/
-.inicio,
-.voltar,
-.barra-pesquisa,
-
-/*PRODUTOS*/
-.titulos,
-.all-produtos,
-
-/*RODAPÉ*/
-footer,
-.redes,
-.rodape,
-.end {
+.container-carrinho, .fechar-carrinho, .produto-interno, .produto-valor, .valor-add, .abertura-carrinho, .inicio, .voltar, .barra-pesquisa, main, .titulos, .all-produtos, footer, .redes, .rodape, .end {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,9 +49,10 @@ footer,
     height: 30px;
     cursor: pointer;
     font-size: 25px;
-}
-.fechar-carrinho:hover {
     color: red;
+    &:hover{
+        color: #333;
+    }
 }
 .interno-carrinho h1 {
     font-weight: 700;
@@ -144,7 +124,7 @@ footer,
     color: #4d4646;
 }
 
-/*PRIMEIRA PARTE VISIVEL DO SITE (imagem de entrada e escolhas)*/
+/*ENTRADA DO SITE*/
 header {
     height: 200px;
     width: 100%;
@@ -198,7 +178,6 @@ header {
         color: tomato;
     }
 }
-
 .barra-pesquisa {
     margin-top: 25px;
 
@@ -220,14 +199,12 @@ header {
             color: #0263b2;
         }
     }
-
     .lupa {
         position: relative;
         right: 30px;
         top: 2px;
     }
 }
-
 
 /*AVISO QUE O PRODUTO FOI INSERIDO NO CARRINHO*/
 .aviso {
@@ -238,18 +215,15 @@ header {
     font-weight: 500;
 }
 
-
 /*PRODUTOS*/
 main{
     padding: 50px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 .titulos{
     width: 100%;
     margin-bottom: 30px;
+
     & nav{
         height: 3px;
         width: 100%;
@@ -272,7 +246,6 @@ main{
     box-shadow: 0px 0px 2px gray;
     border-radius: 5px;
 }
-
 .all-produtos {
     min-height: 380px;
     gap: 30px;
@@ -288,7 +261,6 @@ main{
         box-shadow: 0px 0px 2px gray;
         border-radius: 4px;
         transition: all 0.5s ease-in-out;
-
         &:hover {
             filter: drop-shadow(0px 0px 3px gray);
         }
@@ -380,12 +352,10 @@ footer {
     border-radius: 5% 5% 0% 0% / 10% 10% 0% 0%;
     color: aliceblue;
 }
-
 .rodape {
     width: 100%;
     justify-content: space-around;
 }
-
 .sobre {
     max-width: 300px;
 
@@ -398,7 +368,6 @@ footer {
         margin: 10px 0px;
     }
 }
-
 .redes {
     gap: 20px;
     flex-direction: column;
@@ -420,7 +389,6 @@ footer {
         }
     }
 }
-
 .end {
     margin-top: 20px;
     gap: 30px;
