@@ -1,0 +1,527 @@
+@media screen and (min-width:350px) and (max-width:489px){
+   /*CARRINHO*/
+    .interno-carrinho {
+        width: 98%;
+        & h1{
+            font-size: 25px;
+        }
+    }
+    .produto-interno{
+        font-size: 11px;
+    }
+    .produto-valor{
+        gap: 5px;
+        font-size: 11px;
+        & p{
+            width: 50px;
+        }
+    }
+    .produto-valor button {
+        padding: 3px;
+        height: 25px;
+        width: 25px;
+    }
+    .produto-valor button::before{
+        height: 20px;
+        width: 20px;
+    }
+
+
+    /*MENU*/
+    header {
+        height: 180px;
+        width: 100%;
+    }
+    .inicio {
+        padding-top: 30px;
+        padding-left: 10px;
+        .logo{
+            height: 35px;
+            width:68px;
+        }
+        .titulo {
+            font-size: 20px;
+            width: 150px;
+        }
+    }
+    .abertura-carrinho {
+        font-size: 8px;
+        padding: 2px;
+        gap: 3px;
+        & img{
+            height: 25px;
+        }
+    }
+    .barra-pesquisa{
+        .pesquisa {
+            height: 35px;
+            width: 270px;
+            font-size: 12px;
+            margin-left: 15px;
+            padding: 0px 25px 0px 7px;
+        }
+    }
+
+    /*PRODUTOS*/
+    main{
+        padding: 30px 0px;
+    }
+    .titulos{
+        & .titulo-produto{
+           font-size: 16px; 
+        }
+    }
+    .container-produtos {
+        padding: 20px 10px;
+        width: 90%;
+    }
+    .all-produtos{
+        gap: 15px 10px;
+        justify-content: center;
+        & .product {
+            margin-left: 0px;
+            height: 240px;
+            width: 140px;
+            & nav {
+                margin: 0;
+                text-align: center;
+                padding-top: 10px;
+            }
+            & h2{
+                font-size: 12px;
+                height: 28px;
+            }
+            & h3{
+                font-size: 11px;
+            }
+            & p{
+                font-size: 18px;
+            }
+            .botao {
+                button{
+                    font-size: 11px;
+                }
+            }
+            .botao button::after{
+                height: 15px;
+                width: 15px;
+            }
+        }
+    }
+    
+
+    /*RODAPÉ*/
+    footer{
+        padding: 20px 10px;
+        border-radius: 3% 3% 0% 0% / 3% 3% 0% 0%;
+    }
+    .rodape{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .sobre{
+       width: 100%;
+        font-size: 13px;
+        text-align: center;
+        & img{
+          height: 90px;
+          width: 160px; 
+        }
+        & address{
+          font-weight: 500;
+          margin: 10px 0px;
+        }
+    }
+    .links-footer{
+        display: none;
+    }
+    .redes{
+        gap: 30px;
+        & a{
+            font-size: 12px;
+        }
+    }
+    .end{
+        margin-top: 30px;
+        gap: 25px;
+        & h1, h2{
+            font-size: 11px;
+        }
+    }
+}
+
+@media screen and (min-width:490px) and (max-width:649px) {
+    /*CARRINHO*/
+    .interno-carrinho {
+        width: 98%;
+        & h1{
+            font-size: 25px;
+        }
+    }
+    .produto-interno{
+        font-size: 13px;
+    }
+    .produto-valor{
+        gap: 5px;
+        font-size: 14px;
+        & p{
+            width: 70px;
+        }
+    }
+     .produto-valor button {
+        padding: 3px;
+        height: 26px;
+        width: 26px;
+    }
+    .produto-valor button::before{
+        height: 23px;
+        width: 25px;
+    }
+
+
+    /*MENU*/
+    .inicio {
+        padding-top: 30px;
+        .logo{
+            height: 45px;
+            width: 90px;
+        }
+        .titulo {
+            font-size: 25px;
+            width: 200px;
+        }
+    }
+    .abertura-carrinho {
+        font-size: 10px;
+        padding: 2px;
+        & img{
+            height: 30px;
+        }
+    }
+    .barra-pesquisa{
+        .pesquisa {
+            height: 38px;
+            width: 350px;
+            font-size: 15px;
+            margin-left: 15px;
+        }
+    }
+
+    /*PRODUTOS*/
+    .titulos{
+        & .titulo-produto{
+           font-size: 18px; 
+        }
+    }
+    .container-produtos {
+        padding: 20px 10px;
+        width: 400px;
+    }
+    .all-produtos{
+        gap: 15px 10px;
+        justify-content: center;
+        & .product {
+            margin-left: 5px;
+            height: 290px;
+            width: 165px;
+            & nav {
+                margin: 0;
+                padding-top: 10px;
+            }
+            & h2 {
+                font-size: 15px;
+                height: 36px;
+            }
+            & h3 {
+                font-size: 12px;
+            }
+            & p {
+                font-size: 20px;
+            }
+            .botao {
+                button{
+                    font-size: 13px;
+                }
+            }
+            .botao button::after{
+                height: 20px;
+                width: 20px;
+            }
+        }
+    }
+    
+    /*RODAPÉ*/
+    footer{
+        padding: 20px 10px;
+        border-radius: 3% 3% 0% 0% / 3% 3% 0% 0%;
+    }
+    .rodape{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .sobre{
+        max-width: 450px;
+        font-size: 15px;
+        text-align: center;
+        & img{
+          height: 100px;
+          width: 170px; 
+        }
+        & address{
+          margin: 15px 0px;
+        }
+    }
+    .links-footer{
+        display: none;
+    }
+    .redes{
+        gap: 30px;
+        flex-direction: row;
+        & a{
+            font-size: 14px;
+        }
+    }
+    .end{
+        margin-top: 50px;
+        gap: 25px;
+
+        & h1, h2{
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (min-width:650px) and (max-width:849px){
+    /*CARRINHO*/
+    .interno-carrinho {
+        width: 98%;
+        & h1{
+            font-size: 25px;
+        }
+    }
+    .produto-interno{
+        font-size: 13px;
+    }
+    .produto-valor{
+        gap: 30px;
+        font-size: 14px;
+        & p{
+            width: 70px;
+        }
+    }
+
+    /*MENU*/
+    .inicio {
+        .logo{
+            height: 55px;
+            width: 110px;
+        }
+        .titulo {
+            font-size: 30px;
+            width: 250px;
+        }
+    }
+    .abertura-carrinho {
+        font-size: 13px;
+        padding: 2px 4px;
+        & img{
+            height: 45px;
+        }
+    }
+    .barra-pesquisa{
+        margin-top: 10px;
+        .pesquisa {
+            height: 38px;
+            font-size: 16px;
+        }
+    }
+
+    /*PRODUTOS*/
+    .container-produtos {
+        width: 585px;
+    }
+    .all-produtos{
+        gap: 20px 0px;
+        & .product {
+            height: 280px;
+            width: 165px;
+            & nav {
+                margin: 0;
+                padding-top: 10px;
+            }
+            & h2 {
+                font-size: 16px;
+                height: 38px;
+            }
+            & h3 {
+                font-size: 14px;
+            }
+            & p {
+                font-size: 23px;
+            }
+            .botao {
+                button{
+                    font-size: 13px;
+                }
+            }
+            .botao button::after{
+                height: 20px;
+                width: 20px;
+            }
+        }
+    }
+    
+    /*RODAPÉ*/
+    footer{
+        padding: 25px;
+        border-radius: 5% 5% 0% 0% / 5% 5% 0% 0%;
+    }
+    .sobre{
+        max-width: 280px;
+        font-size: 15px;
+        & img{
+          height: 90px;
+          width: 160px;  
+        }
+        & address{
+          font-weight: 500;
+          margin: 10px 0px;
+        }
+    }
+    .redes{
+        gap: 25px;
+        & a{
+            font-size: 15px;
+        }
+    }
+    .end{
+        gap: 25px;
+        & h1, h2{
+            font-size: 17px;
+            max-width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width:850px) and (max-width:999px){
+    /*CARRINHO*/
+    .interno-carrinho {
+        width: 95%;
+    }
+    
+    /*MENU*/
+    .inicio {
+        .logo{
+            height: 55px;
+            width: 118px;
+        }
+        .titulo {
+            font-size: 40px;
+        }
+    }
+    .abertura-carrinho {
+        font-size: 13px;
+        padding: 2px 4px;
+        & img{
+            height: 45px;
+        }
+    }
+    .barra-pesquisa{
+        .pesquisa {
+            height: 38px;
+            font-size: 16px;
+        }
+    }
+
+    /*PRODUTOS*/
+    .container-produtos {
+        width: 840px;
+    }
+    .all-produtos{
+        gap: 20px 0px;
+        & .product {
+            height: 290px;
+            width: 180px;
+            & h2 {
+                font-size: 16px;
+                height: 39px;
+            }
+            & h3 {
+                font-size: 14px;
+            }
+            & p {
+                font-size: 23px;
+            }
+        }
+    }
+    
+    /*RODAPÉ*/
+    .end {
+        & h1,h2 {
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1299px){
+    /*MENU*/
+    .inicio {
+        .logo{
+            height: 55px;
+            width: 118px;
+        }
+        .titulo {
+            font-size: 40px;
+        }
+    }
+    .abertura-carrinho {
+        font-size: 13px;
+        padding: 2px 4px;
+        & img{
+            height: 45px;
+        }
+    }
+
+
+    /*PRODUTOS*/
+    .container-produtos {
+        width: 930px;
+    }
+    .all-produtos{
+        gap: 15px 5px;
+        & .product {
+            height: 305px;
+            width: 200px;
+            & h2 {
+                font-size: 16px;
+                height: 38px;
+            }
+            & h3 {
+                font-size: 14px;
+            }
+            & p {
+                font-size: 23px;
+            }
+        }
+    }
+
+    /*RODAPÉ*/
+    .end {
+        & h1,h2 {
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (min-width:1300px) and (max-width:1550px) {
+    /*PRODUTOS*/
+    .container-produtos {
+        width: 1200px;
+    }
+
+    /*MENU*/
+    .logo {
+        height: 60px;
+        width: 132px;
+    }
+}

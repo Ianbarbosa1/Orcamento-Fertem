@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORÇAMENTO FERTEM</title>
+    <link rel="stylesheet" href="./assents/css/estilo.css">
+    <link rel="stylesheet" href="./assents/css/responsivo.css">
+    <link rel="website icon" type="png" href="./assents/imagens/FERRAGISTA.png">
+
+    <!--FONTES EXPORTADAS-->
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--CARRINHO DE COMPRA-->
+    <article class="container-carrinho" id="carrinho">
+        <nav class="interno-carrinho">
+            <nav class="fechar-carrinho" id="fc">✖</nav>
+            <h1> ORÇAMENTO </h1>
+            <div class="produtos-adicionados"></div>
+            <div class="valor-add">
+                Total: 
+                <div class="valor-total"></div>
+            </div>
+        </nav>
+    </article>
+
+    <!--ENTRADA-->
+    <header>
+        <a href="https://ianbarbosa1.github.io/fertem/" title="Voltar para Página Inicial" class="voltar">
+            <img src="./assents/imagens/Icones/seta.svg" alt="voltar">
+            Voltar
+        </a>
+
+        <section class="inicio">
+            <div class="aviso"></div>
+            <img src="./assents/imagens/logo-sem-fundo.png" alt="fertem-logo" class="logo"> 
+            
+            <h1 class="titulo">Orçamento Fertem</h1>
+
+            <div class="abertura-carrinho" onclick="abrirCart()">
+                <img src="./assents/imagens/Icones/orcamento-icon.png" alt="Orcamento" title="Produtos adicionados">
+                <p>Adicionados (<span class="contador">0</span>)</p>
+            </div>
+        </section>
+
+        <section class="barra-pesquisa">
+            <input type="text" placeholder="Qual produto deseja encontrar?" class="pesquisa" id="pesquisa" autocomplete="off"/>
+            <img src="./assents/imagens/Icones/lupa.svg" alt="lupa" class="lupa">
+        </section>
+    </header>
+
+    <!--PRODUTOS-->
+    <main>
+        <section class="titulos">
+            <nav></nav>
+            <h1 class="titulo-produto">PRODUTOS</h1>
+            <nav></nav>
+        </section>
+        
+        <section class="container-produtos">
+            <section class="all-produtos" id="produto">
+
+            </section>
+        </section>
+    </main>
+
+    <!--RODAPÉ-->
+    <footer>
+        <section class="rodape">
+            <section class="sobre">
+                <img src="./assents/imagens/logo-sem-fundo.png" alt="Fertem-logo" />
+                <address>Av. Antônio Gomes. 1069 - Ampliação, Itaborai-RJ 24806-686.</address>
+                <p>Funcionamos de Segunda á Sabado das 08:00 ás 18:00Hrs e Domingos das 08:00 ás 13:00Hrs.</p>
+            </section>
+
+            <section class="redes">
+                <a href='https://wa.me/5521971678688' target="_blank">
+                    <img src="./assents/imagens/Icones/whats-icon.png" alt="WhatsApp">
+                    <div>
+                        <p>WhatsApp</p>
+                        <span>(21) 97167-8688</span>
+                    </div>
+                </a>
+
+                <a href='https://www.instagram.com/fertem01?igsh=OXg5Njg0Zm45bWho' target="_blank">
+                    <img src="./assents/imagens/Icones/insta-icon.png" alt="Instagram">
+                    <div>
+                        <p>Instagram</p>
+                        <span>@Fertem</span>
+                    </div>
+                </a>
+
+                <a href='https://maps.app.goo.gl/EhaDchrhHiLp9Upe8' target="_blank">
+                    <img src="./assents/imagens/Icones/face-icon.png" alt="Facebook">
+                    <div>
+                        <p>Facebook</p>
+                        <span>Fertem</span>
+                    </div>
+                </a>
+            </section>
+        </section>
+
+        <div class="end">
+            <h1>© Todos os Direitos Reservados Por Fertem Ferragista</h1>
+            <nav></nav>
+            <h2>Atendemos São Gonsalo, Niterói, Rio bonito e Itaboraí</h2>
+        </div>
+    </footer>
+
+    <script src="./assents/js/script.js"></script>
+</body>
+
+</html>
