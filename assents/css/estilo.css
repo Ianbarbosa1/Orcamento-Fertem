@@ -50,7 +50,7 @@ body {
     cursor: pointer;
     font-size: 27px;
     color: red;
-    font-family:cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Karla", sans-serif;
     &:hover{
         color: #333;
     }
@@ -268,13 +268,12 @@ main{
         }
 
         & nav {
+            padding-top: 10px;
             text-align: center;
-            margin-top: 10px;
         }
 
         & img {
             width: 70%;
-            text-align: center;
         }
 
         & h2 {
