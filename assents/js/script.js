@@ -1,4 +1,4 @@
-alert("Este sistema ainda está em fase de teste, e os valores constados neles não representam o valor real do produtos da fertem!")
+alert("Este site ainda está em fase de teste, valores e código ainda não coencidem de acordo com os dados no sistema integrado na fertem. Agradeço a compreensão!")
 
 /*CARREGAMENTO DOS PRODUTOS NA PÁGINA*/
 let Produtos = []

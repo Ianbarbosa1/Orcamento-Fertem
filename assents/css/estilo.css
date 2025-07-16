@@ -12,7 +12,7 @@ body {
 }
 
 /*DISPLAYS FLEX*/
-.container-carrinho, .fechar-carrinho, .produto-interno, .produto-valor, .valor-add, .abertura-carrinho, .inicio, .voltar, .barra-pesquisa, main, .titulos, .all-produtos, footer, .redes, .rodape, .end {
+.container-carrinho, .fechar-carrinho, .produto-interno, .produto-valor, .valor-add, .abertura-carrinho, .inicio, .voltar, .barra-pesquisa, main, .titulo-externo, .all-produtos, footer, .redes, .rodape, .end {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,8 +48,9 @@ body {
     width: 30px;
     height: 30px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 27px;
     color: red;
+    font-family:cursive, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     &:hover{
         color: #333;
     }
@@ -116,13 +117,14 @@ body {
 .valor-add {
     font-weight: 600;
     margin-top: 15px;
-    justify-content: end;
-    gap: 5px;
+    justify-content: space-between;
+    padding: 3px 10px;
+    border-radius:5px;
+    font-size: 18px;
+    color: aliceblue;
+    background-color: #f01f2b;
 }
-.valor-total {
-    font-size: 20px;
-    color: #4d4646;
-}
+
 
 /*ENTRADA DO SITE*/
 header {
@@ -220,7 +222,7 @@ main{
     padding: 50px 0px;
     flex-direction: column;
 }
-.titulos{
+.titulo-externo{
     width: 100%;
     margin-bottom: 30px;
 

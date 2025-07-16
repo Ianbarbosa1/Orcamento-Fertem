@@ -1,0 +1,2 @@
+O projeto orçamento fertem foi feito separado do site deles, pois assim eu conseguiria manusear melhor a forma de recebimento dos produtos no carrinho de compras, trazendo assim uma performance muito melhor se fosse feito só em react,  
+    --- By: Ian barbosa

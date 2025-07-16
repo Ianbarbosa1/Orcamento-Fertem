@@ -66,9 +66,9 @@
     main{
         padding: 30px 0px;
     }
-    .titulos{
+    .titulo-externo{
         & .titulo-produto{
-           font-size: 16px; 
+           font-size: 18px; 
         }
     }
     .container-produtos {
@@ -208,7 +208,7 @@
     }
 
     /*PRODUTOS*/
-    .titulos{
+    .titulo-externo{
         & .titulo-produto{
            font-size: 18px; 
         }
