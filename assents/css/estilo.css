@@ -66,7 +66,7 @@ body {
     border-radius: 5px;
     border: 1px solid rgb(161, 160, 160);
     margin: 20px 0px 0px 0px;
-    padding: 10px;
+    padding: 5px;
     overflow-y: auto;
     max-height: 400px;
     backdrop-filter: blur(2px);
@@ -123,6 +123,19 @@ body {
     font-size: 18px;
     color: aliceblue;
     background-color: #f01f2b;
+}
+.download-arquivo{
+    border: none;
+    background-color: #0263b2;
+    color: aliceblue;
+    padding: 8px;
+    border-radius:5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover{
+        color: rgba(240, 248, 255, 0.548);
+    }
 }
 
 

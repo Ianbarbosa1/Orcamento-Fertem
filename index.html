@@ -12,6 +12,10 @@
 
     <!--FONTES EXPORTADAS-->
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+    
 </head>
 
 <body>
@@ -19,12 +23,15 @@
     <article class="container-carrinho" id="carrinho">
         <nav class="interno-carrinho">
             <nav class="fechar-carrinho" id="fc">X</nav>
-            <h1> ORÇAMENTO </h1>
-            <div class="produtos-adicionados"></div>
-            <div class="valor-add">
-                Total: 
-                <div class="valor-total"></div>
-            </div>
+            <section>
+                <h1 class="orc-titulo"> ORÇAMENTO </h1>
+                <div class="produtos-adicionados"></div>
+                <div class="valor-add">
+                    Total: 
+                    <div class="valor-total"></div>
+                </div>
+            </section>
+            <button class="download-arquivo">Baixar Orçamento</button>
         </nav>
     </article>
 

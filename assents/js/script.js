@@ -1,4 +1,4 @@
-alert("Este site ainda está em fase de teste, valores e código ainda não coencidem de acordo com os dados no sistema integrado na fertem. Agradeço a compreensão!")
+//alert("Este site ainda está em fase de teste, valores e código ainda não coincidem de acordo com os dados no sistema integrado na fertem. Agradeço a compreensão!")
 
 /*CARREGAMENTO DOS PRODUTOS NA PÁGINA*/
 let Produtos = []
@@ -88,15 +88,18 @@ var valorFinal = document.querySelector('.valor-total')
 var localValor = document.querySelector('.valor-add')
 var confirmacao = document.querySelector('.aviso')
 var contador = document.querySelector('.contador')
+var botaoDownload = document.querySelector('.download-arquivo')
 
 function observacao(){
     let produtosAdicionados = document.querySelector('.produtos-adicionados')
     if(carrinho.length === 0){
         produtosAdicionados.innerHTML = 'Nenhum produto adicionado ao orçamento.'
         localValor.style.display = 'none'
+        botaoDownload.style.display = 'none' 
     }
     else{
         localValor.style.display = 'flex'
+        botaoDownload.style.display = 'flex'
     }
 }
 observacao()
@@ -150,8 +153,8 @@ function atualizarCarrinho() {
                 <p>${item.nome}</p>
 
                 <div class="produto-valor">
-                    <p>Qtd: ${item.quantidade}</p>
-                    <p>R$ ${item.valor.toFixed(2)}</p>
+                    <p title="Quantidade">Qtd: ${item.quantidade}</p>
+                    <p title="Valor Unitário">R$ ${item.valor.toFixed(2)}</p>
                     <button class="remove" nome="${item.nome}" title="Excluir produto"></button>
                 </div>
             </nav>
@@ -193,3 +196,54 @@ function removerProduto(nome) {
         observacao()
     }
 }
+
+
+//DOWNLOAD DOS PRODUTOS ORÇADOS
+botaoDownload.addEventListener('click', () => {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+
+    const produtos = carrinho;
+
+
+    const colunas = ["Produto", "Quantidade", "Preço"];
+
+
+    const linhas = produtos.map(p => [
+        p.nome,
+        p.quantidade,
+        `R$ ${p.valor.toFixed(2)}`
+    ]);
+
+
+    const valorTotal = produtos.reduce((acc, p) => acc + p.valor * p.quantidade, 0);
+
+    doc.setFontSize(18);
+    doc.text("Orçamento Fertem", 14, 22);
+
+    const data = new Date().toLocaleDateString();
+    doc.setFontSize(11);
+    doc.text(`Data: ${data}`, 14, 30);
+
+    doc.autoTable({
+        head: [colunas],
+        body: linhas,
+        startY: 40,
+        margin: { left: 14, right: 14 },
+        styles: {
+            fontSize: 10,
+        }
+    });
+
+    const finalY = doc.lastAutoTable.finalY || 40;
+
+    const valorTotalFormatado = valorTotal.toLocaleString("pt-BR", {
+        style: "currency",
+        currency: "BRL"
+    });
+
+    doc.setFontSize(14);
+    doc.text(`Valor Total: ${valorTotalFormatado}`, 14, finalY + 10);
+
+    doc.save("orcamento-fertem.pdf");
+})

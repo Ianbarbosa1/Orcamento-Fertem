@@ -25,6 +25,9 @@
         height: 20px;
         width: 20px;
     }
+    .download-arquivo{
+        font-size: 13px;
+    }
 
 
     /*MENU*/
@@ -171,6 +174,9 @@
     .produto-valor button::before{
         height: 23px;
         width: 25px;
+    }    
+    .download-arquivo{
+        font-size: 13px;
     }
 
 
