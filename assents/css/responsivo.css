@@ -25,6 +25,9 @@
         height: 20px;
         width: 20px;
     }
+    .valor-add {
+        font-size: 13px;
+    }
     .download-arquivo{
         font-size: 13px;
     }
@@ -174,7 +177,10 @@
     .produto-valor button::before{
         height: 23px;
         width: 25px;
-    }    
+    }
+    .valor-add {
+        font-size: 14px;
+    }   
     .download-arquivo{
         font-size: 13px;
     }

@@ -246,4 +246,5 @@ botaoDownload.addEventListener('click', () => {
     doc.text(`Valor Total: ${valorTotalFormatado}`, 14, finalY + 10);
 
     doc.save("orcamento-fertem.pdf");
+    alert("Orçamento baixado com sucesso! Verifique a pasta de downloads do seu navegador ou do seu dispositivo.");
 })
