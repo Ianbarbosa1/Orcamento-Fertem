@@ -35,22 +35,27 @@
 
     /*MENU*/
     header {
-        height: 180px;
+        height: 170px;
         width: 100%;
     }
+    header::before{
+        height: 110px;
+        font-size: 26px;
+        letter-spacing: 5px;
+    }
     .inicio {
-        padding-top: 30px;
-        padding-left: 10px;
+        margin: 0px 15px;
+        padding-top: 40px;
         .logo{
             height: 35px;
             width:68px;
-        }
-        .titulo {
-            font-size: 20px;
-            width: 150px;
+            filter: drop-shadow(0px 0px 10px transparent);
+            opacity: 0.8;
         }
     }
     .abertura-carrinho {
+        filter: drop-shadow(0px 0px 10px transparent);
+        opacity: 0.8;
         font-size: 8px;
         padding: 2px;
         gap: 3px;
@@ -59,6 +64,7 @@
         }
     }
     .barra-pesquisa{
+        margin: 14px 0px 0px 24px;
         .pesquisa {
             height: 35px;
             width: 270px;
@@ -187,18 +193,27 @@
 
 
     /*MENU*/
+    header {
+        height: 180px;
+    }
+    header::before{
+        height: 110px;
+        font-size: 39px;
+        letter-spacing: 5px;
+    }
     .inicio {
-        padding-top: 30px;
+        margin: 0px 15px;
+        padding-top: 50px;
         .logo{
             height: 45px;
             width: 90px;
-        }
-        .titulo {
-            font-size: 25px;
-            width: 200px;
+            filter: drop-shadow(0px 0px 10px transparent);
+            opacity: 0.8;
         }
     }
     .abertura-carrinho {
+        filter: drop-shadow(0px 0px 10px transparent);
+        opacity: 0.8;
         font-size: 10px;
         padding: 2px;
         & img{
@@ -206,6 +221,7 @@
         }
     }
     .barra-pesquisa{
+        margin: 5px 0px 0px 24px;
         .pesquisa {
             height: 38px;
             width: 350px;
@@ -314,25 +330,37 @@
     }
 
     /*MENU*/
+    header {
+        height: 150px;
+    }
+    header::before{
+        height: 110px;
+        font-size: 50px;
+        letter-spacing: 7px;
+    }
     .inicio {
+        margin: 0px 80px;
         .logo{
             height: 55px;
             width: 110px;
-        }
-        .titulo {
-            font-size: 30px;
-            width: 250px;
+            filter: drop-shadow(0px 0px 10px transparent);
+            opacity: 0.8;
         }
     }
     .abertura-carrinho {
-        font-size: 13px;
+        filter: drop-shadow(0px 0px 10px transparent);
+        opacity: 0.8;
+        font-size: 12px;
         padding: 2px 4px;
         & img{
-            height: 45px;
+            height: 35px;
+        }
+        &:hover{
+            opacity: 1;
         }
     }
     .barra-pesquisa{
-        margin-top: 10px;
+        margin: 5px 0px 0px 24px;
         .pesquisa {
             height: 38px;
             font-size: 16px;
@@ -409,23 +437,28 @@
     }
     
     /*MENU*/
+    header {
+        height: 150px;
+    }
+    header::before{
+        font-size: 35px;
+    }
     .inicio {
+        margin: 0px 80px;
         .logo{
             height: 55px;
             width: 118px;
         }
-        .titulo {
-            font-size: 40px;
-        }
     }
     .abertura-carrinho {
-        font-size: 13px;
+        font-size: 12px;
         padding: 2px 4px;
         & img{
-            height: 45px;
+            height: 35px;
         }
     }
     .barra-pesquisa{
+        margin: 5px 0px 0px 24px;
         .pesquisa {
             height: 38px;
             font-size: 16px;
@@ -464,20 +497,21 @@
 
 @media screen and (min-width:1000px) and (max-width:1299px){
     /*MENU*/
+    header::before{
+        font-size: 40px;
+    }
     .inicio {
+        margin: 0px 100px;
         .logo{
             height: 55px;
             width: 118px;
         }
-        .titulo {
-            font-size: 40px;
-        }
     }
     .abertura-carrinho {
-        font-size: 13px;
+        font-size: 12px;
         padding: 2px 4px;
         & img{
-            height: 45px;
+            height: 35px;
         }
     }
 
@@ -513,6 +547,11 @@
 }
 
 @media screen and (min-width:1300px) and (max-width:1550px) {
+    /*MENU*/
+    header::before{
+        font-size: 40px;
+    }
+
     /*PRODUTOS*/
     .container-produtos {
         width: 1200px;

@@ -145,6 +145,21 @@ header {
     width: 100%;
     background-color: #0264b2;
 }
+header::before{
+    animation: detalhe 10s ease-in-out infinite alternate;
+    content: 'ORÇAMENTO FERTEM';
+    width: 100%;
+    top: 15px;
+    position: absolute;
+    color: transparent;
+    font-size: 45px;;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-stroke: #affffe 1px;
+    filter: drop-shadow(0px 0px 10px rgba(247, 246, 246, 0.76));
+}
 .voltar {
     position: absolute;
     padding: 10px;
@@ -156,19 +171,13 @@ header {
 }
 .inicio {
     padding: 20px 0px;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0px 200px;
 
     & .logo {
         height: 70px;
         width: 152px;
         filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.76));
-    }
-
-    & .titulo {
-        color: #affffe;
-        font-size: 50px;
-        text-align: center;
-        font-weight: 400;
     }
 }
 .abertura-carrinho {
@@ -181,20 +190,22 @@ header {
     background-color: aliceblue;
     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.76));
     font-weight: 500;
+    font-size: 15px;
+    transition: all 0.5s ease-in-out;
 
     &:hover img{
         padding: 3px;
     }
 
     & img{
-        height: 48px;
+        height: 43px;
     }
     & .contador{
         color: tomato;
     }
 }
 .barra-pesquisa {
-    margin-top: 25px;
+    margin: 25px 0px 0px 24px;
 
     .pesquisa {
         height: 45px;
@@ -419,5 +430,16 @@ footer {
         height: 10px;
         width: 3px;
         background-color: aliceblue;
+    }
+}
+
+/*TRANSIÇÕES*/
+
+@keyframes detalhe {
+    0% {
+        filter: drop-shadow(0px 0px 10px rgba(247, 246, 246, 0.76));
+    }
+    100% {
+       filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.76));
     }
 }
