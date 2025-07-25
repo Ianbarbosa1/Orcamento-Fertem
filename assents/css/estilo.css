@@ -146,19 +146,18 @@ header {
     background-color: #0264b2;
 }
 header::before{
-    animation: detalhe 10s ease-in-out infinite alternate;
     content: 'ORÇAMENTO FERTEM';
     width: 100%;
     top: 15px;
     position: absolute;
-    color: transparent;
+    color: aliceblue;
     font-size: 45px;;
     font-weight: 800;
     display: flex;
     justify-content: center;
     align-items: center;
-    -webkit-text-stroke: #affffe 1px;
     filter: drop-shadow(0px 0px 10px rgba(247, 246, 246, 0.76));
+    animation: detalhe 10s ease-in-out infinite alternate;
 }
 .voltar {
     position: absolute;
