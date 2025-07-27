@@ -10,7 +10,7 @@
   {
     "id": 1001,
     "categoria": 3,
-    "nome": "Escova Circular Torcida 10.000 RPM 5'' Bestfer",
+    "nome": "Escova Circular Torcida 10.000 RPM 5''",
     "imagem": "https://i.postimg.cc/7YXypGsZ/escova-circular-torcida-5.jpg",
     "valor": "59.90",
     "descricao": "Escova metálica circular com fios de aço torcidos, utilizada em esmerilhadeiras para trabalhos pesados de limpeza e preparação de superfícies metálicas, removendo ferrugem, tinta, resíduos e preparando superfícies metálicas."
@@ -18,7 +18,7 @@
   {
     "id": 1002,
     "categoria": 3,
-    "nome": "Escova de Aço com Cabo Bestfer",
+    "nome": "Escova de Aço com Cabo",
     "imagem": "https://i.postimg.cc/Dy7TjdcN/escova-aco-cabo.jpg",
     "valor": "19.90",
     "descricao": "Escova manual com cerdas de aço e cabo ergonômico, utilizada para limpeza de superfícies metálicas, remoção de ferrugem, tinta, resíduos e preparação para pintura ou soldagem."
@@ -26,7 +26,7 @@
   {
     "id": 1003,
     "categoria": 3,
-    "nome": "Maçarico Portátil a Gás com Regulador Fertak",
+    "nome": "Maçarico Portátil a Gás com Regulador",
     "imagem": "https://i.postimg.cc/TP2vdrws/macarico-a-gas-fertak.jpg",
     "valor": "99.90",
     "descricao": "Ferramenta portátil que utiliza gás para gerar chama intensa, usada em soldagem, corte, aquecimento e trabalhos de bricolagem que requerem controle preciso da temperatura."
@@ -42,7 +42,7 @@
   {
     "id": 1005,
     "categoria": 3,
-    "nome": "Escova Tipo Copo 4'' Rosca(M14) Bestfer",
+    "nome": "Escova Tipo Copo 4'' Rosca(M14)",
     "imagem": "https://i.postimg.cc/G2GqJfQj/escova-tipo-copo-4.jpg",
     "valor": "69.90",
     "descricao": "Escova em formato de copo com cerdas de aço, rosqueada para esmerilhadeiras, usada para limpeza, remoção de ferrugem e preparação de superfícies metálicas em áreas de difícil acesso."
@@ -50,7 +50,7 @@
   {
     "id": 1006,
     "categoria": 2,
-    "nome": "PU 40 Multiuso Selante Adesivo Branco",
+    "nome": "PU 40 Multiuso Selante Adesivo Branco 400g",
     "imagem": "https://i.postimg.cc/k4pknz61/PU-40.png",
     "valor": "29.90",
     "descricao": "Selante adesivo à base de poliuretano, utilizado para vedação, colagem e reparos em diversas superfícies, oferecendo alta resistência e durabilidade, ideal para aplicações internas e externas."
@@ -58,7 +58,7 @@
   {
     "id": 1007,
     "categoria": 2,
-    "nome": "PU 40 Multiuso Selante Adesivo Preto",
+    "nome": "PU 40 Multiuso Selante Adesivo Preto 400g",
     "imagem": "https://i.postimg.cc/k4pknz61/PU-40.pngg",
     "valor": "29.90",
     "descricao": "Selante adesivo à base de poliuretano, utilizado para vedação, colagem e reparos em diversas superfícies, oferecendo alta resistência e durabilidade, ideal para aplicações internas e externas."
@@ -66,7 +66,7 @@
   {
     "id": 1008,
     "categoria": 2,
-    "nome": "PU 40 Multiuso Selante Adesivo Cinza",
+    "nome": "PU 40 Multiuso Selante Adesivo Cinza 400g",
     "imagem": "https://i.postimg.cc/k4pknz61/PU-40.png",
     "valor": "29.90",
     "descricao": "Selante adesivo à base de poliuretano, utilizado para vedação, colagem e reparos em diversas superfícies, oferecendo alta resistência e durabilidade, ideal para aplicações internas e externas."
@@ -138,7 +138,7 @@
   {
     "id": 1017,
     "categoria": 2,
-    "nome": "Pincel de Cerda 2'' Polegada",
+    "nome": "Pincel de Cerda 2'' Polegadas",
     "imagem": "https://i.postimg.cc/cCJSmRNn/pincel-de-cerda-2-polegada.png",
     "valor": "7.90",
     "descricao": "Pincel com cerdas naturais e cabo de madeira, indicado para aplicação precisa de tintas, vernizes e produtos químicos em superfícies pequenas ou de difícil acesso."
@@ -146,7 +146,7 @@
   {
     "id": 1018,
     "categoria": 2,
-    "nome": "Pincel de Cerda 3'' Polegada",
+    "nome": "Pincel de Cerda 3'' Polegadas",
     "imagem": "https://i.postimg.cc/28VYL7Gp/pincel-de-cerda-3-polegada.png",
     "valor": "10.90",
     "descricao": "Pincel com cerdas naturais e cabo de madeira, indicado para aplicação precisa de tintas, vernizes e produtos químicos em superfícies pequenas ou de difícil acesso."
@@ -154,7 +154,7 @@
   {
     "id": 1019,
     "categoria": 2,
-    "nome": "Pincel de Cerda 4'' Polegada",
+    "nome": "Pincel de Cerda 4'' Polegadas",
     "imagem": "https://i.postimg.cc/m2DLNsb5/pincel-de-cerda-4-polegada.png",
     "valor": "12.90",
     "descricao": "Pincel com cerdas naturais e cabo de madeira, indicado para aplicação precisa de tintas, vernizes e produtos químicos em superfícies pequenas ou de difícil acesso."
@@ -250,7 +250,7 @@
   {
     "id": 1031,
     "categoria": 1,
-    "nome": "Bomba Submersa (Sapo)  HB400",
+    "nome": "Bomba Submersa (Sapo) HB400",
     "imagem": "https://i.postimg.cc/j5QrC7Zm/Bomba-Submersa-HB400.jpg",
     "valor": "299.90",
     "descricao": "Indicada para poços, cisternas e reservatórios, essa bomba submersa é eficiente na elevação e movimentação da água limpa, sendo ideal para uso doméstico, irrigação ou abastecimento de caixas d’água. Elevação de 50M de altura - Saida 3/4."
@@ -282,7 +282,7 @@
   {
     "id": 1035,
     "categoria": 3,
-    "nome": "Trena Fertak 10 Metros",
+    "nome": "Trena 10 Metros",
     "imagem": "https://i.postimg.cc/28XNqm7k/Trena-Fertak-10-metros.jpg",
     "valor": "29.90",
     "descricao": "Trena compacta com corpo emborrachado, três travas de segurança, presilha para cinto e fita de aço graduada em mm/polegadas, ideal para medições rápidas e precisas em obras, reformas e medições domésticas."
