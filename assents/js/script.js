@@ -197,6 +197,7 @@ function removerProduto(nome) {
     }
 }
 
+let chamada = document.querySelector('.chamada');
 
 //DOWNLOAD DOS PRODUTOS ORÇADOS
 botaoDownload.addEventListener('click', () => {
@@ -217,13 +218,18 @@ botaoDownload.addEventListener('click', () => {
 
 
     const valorTotal = produtos.reduce((acc, p) => acc + p.valor * p.quantidade, 0);
-
-    doc.setFontSize(18);
+    doc.setFontSize(15);
     doc.text("Orçamento Fertem", 14, 22);
 
+    doc.setFontSize(12);
+    doc.text("Av. Antônio Gomes, 1069 - Ampliação, Itaboraí - RJ", 14, 28);
+    doc.text("(21) 97167-8688", 163, 28);
+    doc.text("CNPJ: 34.442.207/0001-38", 14, 34);
+    
+
     const data = new Date().toLocaleDateString();
-    doc.setFontSize(11);
-    doc.text(`Data: ${data}`, 14, 30);
+    doc.setFontSize(12);
+    doc.text(`Data: ${data}`, 163, 34);
 
     doc.autoTable({
         head: [colunas],
@@ -245,6 +251,14 @@ botaoDownload.addEventListener('click', () => {
     doc.setFontSize(14);
     doc.text(`Valor Total: ${valorTotalFormatado}`, 14, finalY + 10);
 
-    doc.save("orcamento-fertem.pdf");
-    alert("Orçamento baixado com sucesso! Verifique a pasta de downloads do seu navegador ou do seu dispositivo.");
+    doc.save("orcamento-fertem.pdf");;
+
+    chamada.style.display = 'flex';
 })
+
+let fecharChamada = document.querySelector('#fechar-chamada');
+fecharChamada.addEventListener('click', Chamada);
+
+function Chamada() {
+    chamada.style.display = 'none';
+}

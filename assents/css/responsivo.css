@@ -1,5 +1,24 @@
 @media screen and (min-width:350px) and (max-width:489px){
-   /*CARRINHO*/
+   /*CHAMADA WHATS*/
+    .chamada-interna{
+        height: 310px;
+        width: 100%;
+        padding: 10px;
+        gap: 25px;
+        & h1{
+            font-size: 18px;
+        }
+        & h2{
+            font-size: 14px;
+        }
+    }
+    .sim-nao{
+        & a, span {
+            font-size: 12px;
+        }
+    }
+
+    /*CARRINHO*/
     .interno-carrinho {
         width: 98%;
         & h1{
@@ -156,6 +175,25 @@
 }
 
 @media screen and (min-width:490px) and (max-width:649px) {
+    /*CHAMADA WHATS*/
+    .chamada-interna{
+        height: 300px;
+        width: 100%;
+        padding: 10px;
+        gap: 25px;
+        & h1{
+            font-size: 20px;
+        }
+        & h2{
+            font-size: 16px;
+        }
+    }
+    .sim-nao{
+        & a, span {
+            font-size: 14px;
+        }
+    }
+
     /*CARRINHO*/
     .interno-carrinho {
         width: 98%;

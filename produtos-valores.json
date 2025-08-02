@@ -784,11 +784,155 @@
     "descricao": "Conexão em PVC usada para mudar a direção da tubulação em 90°, com uma ponta soldável e outra roscável. Ideal para água fria, oferece fácil instalação, boa vedação e praticidade em manutenções, unindo firmeza e versatilidade no sistema hidráulico."
   },
   {
-    "id": 1095,
+    "id": 1096,
     "categoria": 6,
     "nome": "Joelho Azul Soldável e Roscável PVC 25mm x 3/4",
     "imagem": "https://i.postimg.cc/C1jrKpTf/joelho-90o-bucha-rosca-e-solda-azul-25mm-3-4.jpg",
     "valor": "6.90",
     "descricao": "Conexão em PVC usada para mudar a direção da tubulação em 90°, com uma ponta soldável e outra roscável. Ideal para água fria, oferece fácil instalação, boa vedação e praticidade em manutenções, unindo firmeza e versatilidade no sistema hidráulico."
+  },
+  {
+    "id": 1097,
+    "categoria": 6,
+    "nome": "Tubo Soldável PVC 20mm 1 metro",
+    "imagem": "https://i.postimg.cc/43GtrBxv/tubo-soldavel-6m.jpg",
+    "valor": "0.00",
+    "descricao": "Tubo rígido em PVC ideal para condução de água fria em instalações hidráulicas prediais, sendo utilizado em obras residenciais, comerciais ou industriais onde se exige estanqueidade e resistência à pressão. Com 1 metro e bitola de 20mm"
+  },
+  {
+    "id": 1098,
+    "categoria": 6,
+    "nome": "Tubo Soldável PVC 20mm 6 metros",
+    "imagem": "https://i.postimg.cc/43GtrBxv/tubo-soldavel-6m.jpg",
+    "valor": "0.00",
+    "descricao": "Tubo rígido em PVC ideal para condução de água fria em instalações hidráulicas prediais, sendo utilizado em obras residenciais, comerciais ou industriais onde se exige estanqueidade e resistência à pressão. Com 6 metros e bitola de 20mm"
+  },
+  {
+    "id": 1099,
+    "categoria": 6,
+    "nome": "Tubo Soldável PVC 25mm 1 metro",
+    "imagem": "https://i.postimg.cc/43GtrBxv/tubo-soldavel-6m.jpg",
+    "valor": "0.00",
+    "descricao": "Tubo rígido em PVC ideal para condução de água fria em instalações hidráulicas prediais, sendo utilizado em obras residenciais, comerciais ou industriais onde se exige estanqueidade e resistência à pressão. Com 1 metro e bitola de 25mm"
+  },
+  {
+    "id": 1100,
+    "categoria": 6,
+    "nome": "Tubo Soldável PVC 25mm 6 metros",
+    "imagem": "https://i.postimg.cc/43GtrBxv/tubo-soldavel-6m.jpg",
+    "valor": "0.00",
+    "descricao": "Tubo rígido em PVC ideal para condução de água fria em instalações hidráulicas prediais, sendo utilizado em obras residenciais, comerciais ou industriais onde se exige estanqueidade e resistência à pressão. Com 6 metros e bitola de 25mm"
+  },
+  {
+    "id": 1101,
+    "categoria": 6,
+    "nome": "Tubo Soldável PVC 32mm 1 metro",
+    "imagem": "https://i.postimg.cc/43GtrBxv/tubo-soldavel-6m.jpg",
+    "valor": "0.00",
+    "descricao": "Tubo rígido em PVC ideal para condução de água fria em instalações hidráulicas prediais, sendo utilizado em obras residenciais, comerciais ou industriais onde se exige estanqueidade e resistência à pressão. Com 1 metro e bitola de 32mm"
+  },
+  {
+    "id": 1102,
+    "categoria": 6,
+    "nome": "Tubo Soldável PVC 32mm 6 metros",
+    "imagem": "https://i.postimg.cc/43GtrBxv/tubo-soldavel-6m.jpg",
+    "valor": "0.00",
+    "descricao": "Tubo rígido em PVC ideal para condução de água fria em instalações hidráulicas prediais, sendo utilizado em obras residenciais, comerciais ou industriais onde se exige estanqueidade e resistência à pressão. Com 6 metros e bitola de 32mm"
+  },
+  {
+    "id": 1103,
+    "categoria": 6,
+    "nome": "Tubo Soldável PVC 40mm 1 metro",
+    "imagem": "https://i.postimg.cc/43GtrBxv/tubo-soldavel-6m.jpg",
+    "valor": "0.00",
+    "descricao": "Tubo rígido em PVC ideal para condução de água fria em instalações hidráulicas prediais, sendo utilizado em obras residenciais, comerciais ou industriais onde se exige estanqueidade e resistência à pressão. Com 1 metro e bitola de 40mm"
+  },
+  {
+    "id": 1104,
+    "categoria": 6,
+    "nome": "Tubo Soldável PVC 40mm 6 metros",
+    "imagem": "https://i.postimg.cc/43GtrBxv/tubo-soldavel-6m.jpg",
+    "valor": "0.00",
+    "descricao": "Tubo rígido em PVC ideal para condução de água fria em instalações hidráulicas prediais, sendo utilizado em obras residenciais, comerciais ou industriais onde se exige estanqueidade e resistência à pressão. Com 6 metros e bitola de 40mm"
+  },
+  {
+    "id": 1105,
+    "categoria": 6,
+    "nome": "Tubo Soldável PVC 50mm 1 metro",
+    "imagem": "https://i.postimg.cc/43GtrBxv/tubo-soldavel-6m.jpg",
+    "valor": "0.00",
+    "descricao": "Tubo rígido em PVC ideal para condução de água fria em instalações hidráulicas prediais, sendo utilizado em obras residenciais, comerciais ou industriais onde se exige estanqueidade e resistência à pressão. Com 1 metro e bitola de 50mm"
+  },
+  {
+    "id": 1106,
+    "categoria": 6,
+    "nome": "Tubo Soldável PVC 50mm 6 metros",
+    "imagem": "https://i.postimg.cc/43GtrBxv/tubo-soldavel-6m.jpg",
+    "valor": "0.00",
+    "descricao": "Tubo rígido em PVC ideal para condução de água fria em instalações hidráulicas prediais, sendo utilizado em obras residenciais, comerciais ou industriais onde se exige estanqueidade e resistência à pressão. Com 6 metros e bitola de 50mm"
+  },
+  {
+    "id": 1107,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 40mm 1 metro",
+    "imagem": "https://i.postimg.cc/KvKnL1WT/cano-pvc-para-esgoto-40mm.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 1 metros e bitola de 40mm"
+  },
+  {
+    "id": 1108,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 40mm 6 metros",
+    "imagem": "https://i.postimg.cc/KvKnL1WT/cano-pvc-para-esgoto-40mm.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 6 metros e bitola de 40mm"
+  },
+  {
+    "id": 1109,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 50mm 1 metro",
+    "imagem": "https://i.postimg.cc/65DCh9sm/cano-pvc-para-esgoto-50mm.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 1 metro e bitola de 50mm"
+  },
+  {
+    "id": 1110,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 50mm 6 metros",
+    "imagem": "https://i.postimg.cc/65DCh9sm/cano-pvc-para-esgoto-50mm.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 6 metros e bitola de 50mm"
+  },
+  {
+    "id": 1111,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 75mm 1 metro",
+    "imagem": "https://i.postimg.cc/4426m6WZ/cano-pvc-para-esgoto-75mm.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 1 metro e bitola de 75mm"
+  },
+  {
+    "id": 1112,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 75mm 6 metros",
+    "imagem": "https://i.postimg.cc/4426m6WZ/cano-pvc-para-esgoto-75mm.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 6 metros e bitola de 75mm"
+  },
+  {
+    "id": 1113,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 100mm 1 metro",
+    "imagem": "https://i.postimg.cc/vZffqpbH/cano-pvc-para-esgoto-100mm.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 1 metro e bitola de 100mm"
+  },
+  {
+    "id": 1114,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 100mm 6 metros",
+    "imagem": "https://i.postimg.cc/vZffqpbH/cano-pvc-para-esgoto-100mm.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 6 metros e bitola de 100mm"
   }
 ]

@@ -12,12 +12,65 @@ body {
 }
 
 /*DISPLAYS FLEX*/
-.container-carrinho, .fechar-carrinho, .produto-interno, .produto-valor, .valor-add, .abertura-carrinho, .inicio, .voltar, .barra-pesquisa, main, .titulo-externo, .all-produtos, footer, .redes, .rodape, .end {
+.chamada, .chamada-interna, .sim-nao, .container-carrinho, .fechar-carrinho, .produto-interno, .produto-valor, .valor-add, .abertura-carrinho, .inicio, .voltar, .barra-pesquisa, main, .titulo-externo, .all-produtos, footer, .redes, .rodape, .end {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/*CHAMADA WHATS*/
+.chamada{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.534);
+    backdrop-filter: blur(30px);
+    position: fixed;
+    z-index: +100;
+    display: none;
+}
+.chamada-interna{
+    height: 300px;
+    width: 500px;
+    background-color: aliceblue;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    gap: 25px;
+    & h1{
+        color: #181818;
+        font-size: 22px;
+        border: 2px dashed #2dd46b;
+        padding: 3px 7px;
+        border-radius: 5px;
+        font-weight: 600;
+    }
+    & h2{
+        color: #181818;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+.sim-nao{
+    width: 100%;
+    justify-content: space-around;
+    & a, span {
+        color: aliceblue;
+        background-color: #0263b2;
+        padding: 10px 30px;
+        border-radius: 5px;
+        &:hover {
+            background-color: #44a4f3;
+        }   
+    }
+    & span {
+        background-color: #f01f2b;
+        cursor: pointer;
+        &:hover {
+            background-color: #f3444d;
+        }
+    }
+}
 
 /*CARRINHO DE COMPRA*/
 .container-carrinho {
