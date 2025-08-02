@@ -316,7 +316,7 @@ main{
     }
 }
 .container-produtos {
-    max-height: 1500px;
+    max-height: 88dvh;
     overflow-y: auto;
     width: 1500px;
     padding: 20px;
