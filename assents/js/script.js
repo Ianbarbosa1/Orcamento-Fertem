@@ -89,6 +89,7 @@ var localValor = document.querySelector('.valor-add')
 var confirmacao = document.querySelector('.aviso')
 var contador = document.querySelector('.contador')
 var botaoDownload = document.querySelector('.download-arquivo')
+var cliente = document.querySelector('.cliente')
 
 function observacao(){
     let produtosAdicionados = document.querySelector('.produtos-adicionados')
@@ -96,10 +97,12 @@ function observacao(){
         produtosAdicionados.innerHTML = 'Nenhum produto adicionado ao orçamento.'
         localValor.style.display = 'none'
         botaoDownload.style.display = 'none' 
+        cliente.style.display = 'none' 
     }
     else{
         localValor.style.display = 'flex'
         botaoDownload.style.display = 'flex'
+        cliente.style.display = 'flex' 
     }
 }
 observacao()
@@ -198,62 +201,75 @@ function removerProduto(nome) {
 }
 
 let chamada = document.querySelector('.chamada');
+let nome = document.querySelector('#nome-cliente')
+
 
 //DOWNLOAD DOS PRODUTOS ORÇADOS
 botaoDownload.addEventListener('click', () => {
-    const { jsPDF } = window.jspdf;
-    const doc = new jsPDF();
-
-    const produtos = carrinho;
-
-
-    const colunas = ["Produto", "Quantidade", "Preço"];
-
-
-    const linhas = produtos.map(p => [
-        p.nome,
-        p.quantidade,
-        `R$ ${p.valor.toFixed(2)}`
-    ]);
-
-
-    const valorTotal = produtos.reduce((acc, p) => acc + p.valor * p.quantidade, 0);
-    doc.setFontSize(15);
-    doc.text("Orçamento Fertem", 14, 22);
-
-    doc.setFontSize(12);
-    doc.text("Av. Antônio Gomes, 1069 - Ampliação, Itaboraí - RJ", 14, 28);
-    doc.text("(21) 97167-8688", 163, 28);
-    doc.text("CNPJ: 34.442.207/0001-38", 14, 34);
+    let nomeUser = nome.value
+    if(nomeUser === "" || nomeUser.length < 3){
+        console.log(nomeUser)
+        alert('Por favor, insira o nome do cliente para gerar o orçamento.')
+        nome.focus()
+    }
+    else{
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+        
+        const produtos = carrinho;
+        
+        const colunas = ["Produto", "Quantidade", "Preço"];
     
+        const linhas = produtos.map(p => [
+            p.nome,
+            p.quantidade,
+            `R$ ${p.valor.toFixed(2)}`
+        ]);
+    
+    
+        const valorTotal = produtos.reduce((acc, p) => acc + p.valor * p.quantidade, 0);
+        doc.setFontSize(15);
+        doc.text("Orçamento Fertem", 14, 22);
+    
+        doc.setFontSize(12);
+        doc.text("Av. Antônio Gomes, 1069 - Ampliação, Itaboraí - RJ", 14, 28);
+        doc.text("(21) 97167-8688", 163, 28);
+        doc.text("CNPJ: 34.442.207/0001-38", 14, 34);
+        
+        doc.setFontSize(12);
+        doc.text(`Cliente: ${nomeUser}`, 14, 40);
+    
+        const data = new Date().toLocaleDateString();
+        doc.setFontSize(12);
+        doc.text(`Data: ${data}`, 163, 34);
+    
+        doc.autoTable({
+            head: [colunas],
+            body: linhas,
+            startY: 42,
+            margin: { left: 14, right: 14 },
+            styles: {
+                fontSize: 10,
+            }
+        });
+    
+        const finalY = doc.lastAutoTable.finalY || 40;
+    
+        const valorTotalFormatado = valorTotal.toLocaleString("pt-BR", {
+            style: "currency",
+            currency: "BRL"
+        });
+    
+        doc.setFontSize(14);
+        doc.text(`Valor Total: ${valorTotalFormatado}`, 14, finalY + 10);
+    
+    
+        doc.save("orcamento-fertem.pdf");
+    
+    
+        chamada.style.display = 'flex';
+    }
 
-    const data = new Date().toLocaleDateString();
-    doc.setFontSize(12);
-    doc.text(`Data: ${data}`, 163, 34);
-
-    doc.autoTable({
-        head: [colunas],
-        body: linhas,
-        startY: 40,
-        margin: { left: 14, right: 14 },
-        styles: {
-            fontSize: 10,
-        }
-    });
-
-    const finalY = doc.lastAutoTable.finalY || 40;
-
-    const valorTotalFormatado = valorTotal.toLocaleString("pt-BR", {
-        style: "currency",
-        currency: "BRL"
-    });
-
-    doc.setFontSize(14);
-    doc.text(`Valor Total: ${valorTotalFormatado}`, 14, finalY + 10);
-
-    doc.save("orcamento-fertem.pdf");;
-
-    chamada.style.display = 'flex';
 })
 
 let fecharChamada = document.querySelector('#fechar-chamada');

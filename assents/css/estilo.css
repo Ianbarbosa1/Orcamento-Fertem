@@ -12,7 +12,7 @@ body {
 }
 
 /*DISPLAYS FLEX*/
-.chamada, .chamada-interna, .sim-nao, .container-carrinho, .fechar-carrinho, .produto-interno, .produto-valor, .valor-add, .abertura-carrinho, .inicio, .voltar, .barra-pesquisa, main, .titulo-externo, .all-produtos, footer, .redes, .rodape, .end {
+.chamada, .chamada-interna, .sim-nao, .cliente, .container-carrinho, .fechar-carrinho, .produto-interno, .produto-valor, .valor-add, .abertura-carrinho, .inicio, .voltar, .barra-pesquisa, main, .titulo-externo, .all-produtos, footer, .redes, .rodape, .end {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,6 +176,38 @@ body {
     font-size: 18px;
     color: aliceblue;
     background-color: #f01f2b;
+}
+.cliente{
+    align-items: start;
+    flex-direction: column;
+    margin: 20px 0px;
+    gap: 20px;
+    & input{
+        width: 300px;
+        outline: none;
+        border-radius: 3px;
+        font-size: 16px;
+        border: 1px solid rgb(161, 160, 160);
+        padding: 5px 10px;
+        background-color: transparent;
+        backdrop-filter: blur(1px);
+        color: #181818;
+        font-weight: 500;
+
+        &::placeholder{
+            color: #181818;
+        }
+    }
+    & select{ 
+        outline: none;
+        border: 1px solid rgb(161, 160, 160);
+        font-size: 16px;
+        background-color: transparent;
+        backdrop-filter: blur(1px);
+        padding: 5px 7px;
+        border-radius:5px;
+        font-weight: 500;
+    }
 }
 .download-arquivo{
     border: none;

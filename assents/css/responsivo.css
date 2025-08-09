@@ -50,6 +50,16 @@
     .download-arquivo{
         font-size: 13px;
     }
+    .cliente{
+        margin: 15px 0px;
+        gap: 15px;
+        & input{
+            font-size: 13px;
+        }
+        & select{ 
+            font-size: 13px;
+        }
+    }
 
 
     /*MENU*/
@@ -225,6 +235,16 @@
     }   
     .download-arquivo{
         font-size: 13px;
+    }
+    .cliente{
+        margin: 15px 0px;
+        gap: 15px;
+        & input{
+            font-size: 14px;
+        }
+        & select{ 
+            font-size: 14px;
+        }
     }
 
 
