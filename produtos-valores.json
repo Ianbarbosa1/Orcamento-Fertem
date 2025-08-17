@@ -934,5 +934,201 @@
     "imagem": "https://i.postimg.cc/vZffqpbH/cano-pvc-para-esgoto-100mm.jpg",
     "valor": "0.00",
     "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 6 metros e bitola de 100mm"
+  },
+  {
+    "id": 1115,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 150mm 1 metros",
+    "imagem": "https://i.postimg.cc/x1bPPtxF/cano-pvc-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 1 metros e bitola de 150mm"
+  },
+  {
+    "id": 1116,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 150mm 3 metros",
+    "imagem": "https://i.postimg.cc/x1bPPtxF/cano-pvc-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 3 metros e bitola de 150mm"
+  }
+  ,
+  {
+    "id": 1117,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 150mm 6 metros",
+    "imagem": "https://i.postimg.cc/x1bPPtxF/cano-pvc-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 6 metros e bitola de 150mm"
+  },
+  {
+    "id": 1118,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 200mm 1 metros",
+    "imagem": "https://i.postimg.cc/x1bPPtxF/cano-pvc-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 1 metros e bitola de 200mm"
+  },
+  {
+    "id": 1119,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 200mm 3 metros",
+    "imagem": "https://i.postimg.cc/x1bPPtxF/cano-pvc-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 3 metros e bitola de 200mm"
+  }
+  ,
+  {
+    "id": 1120,
+    "categoria": 6,
+    "nome": "Tubo Esgoto PVC 200mm 6 metros",
+    "imagem": "https://i.postimg.cc/x1bPPtxF/cano-pvc-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Utilizado para condução de esgoto sanitário e águas servidas em instalações prediais, esse tubo em PVC oferece resistência a impactos e agentes químicos, sendo ideal para sistemas de escoamento com baixa pressão. Com 6 metros e bitola de 200mm"
+  },
+  {
+    "id": 1121,
+    "categoria": 6,
+    "nome": "Joelho Esgoto 90° PVC de 150mm",
+    "imagem": "https://i.postimg.cc/1zGck4ZG/joelho-90o-pvc-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Peça utilizada para fazer curvas em tubulações de esgoto, permitindo que a direção do encanamento mude em um ângulo de 90 graus. Compatível com tubos de esgoto de 150mm de diâmetro."
+  }
+  ,
+  {
+    "id": 1122,
+    "categoria": 6,
+    "nome": "Joelho Esgoto 90° PVC de 200mm",
+    "imagem": "https://i.postimg.cc/1zGck4ZG/joelho-90o-pvc-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Peça utilizada para fazer curvas em tubulações de esgoto, permitindo que a direção do encanamento mude em um ângulo de 90 graus. Compatível com tubos de esgoto de 200mm de diâmetro"
+  },
+  {
+    "id": 1123,
+    "categoria": 6,
+    "nome": "Joelho Esgoto 45° PVC de 150mm",
+    "imagem": "https://i.postimg.cc/1zGck4ZG/joelho-90o-pvc-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Conexão usada para fazer desvios suaves na tubulação de esgoto, mudando a direção do encanamento em 45 graus. Ideal para evitar curvas muito fechadas, que podem dificultar o fluxo da água servida. Compatível com tubos de esgoto de 150mm de diâmetro."
+  }
+  ,
+  {
+    "id": 1124,
+    "categoria": 6,
+    "nome": "Joelho Esgoto 45° PVC de 200mm",
+    "imagem": "https://i.postimg.cc/1zGck4ZG/joelho-90o-pvc-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Conexão usada para fazer desvios suaves na tubulação de esgoto, mudando a direção do encanamento em 45 graus. Ideal para evitar curvas muito fechadas, que podem dificultar o fluxo da água servida. Compatível com tubos de esgoto de 200mm de diâmetro"
+  },
+  {
+    "id": 1125,
+    "categoria": 6,
+    "nome": "Luva Esgoto PVC de 150mm",
+    "imagem": "https://i.postimg.cc/WpW6LQxH/luva-pvc-para-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Peça utilizada para unir dois tubos de esgoto com o mesmo diâmetro, garantindo continuidade na tubulação e vedação segura contra vazamentos. Indicada para instalações residenciais e comerciais, é compatível com tubos de 40mm e ideal para ampliações, manutenções ou emendas no sistema de esgoto."
+  },
+  {
+    "id": 1126,
+    "categoria": 6,
+    "nome": "Luva Esgoto PVC de 200mm",
+    "imagem": "https://i.postimg.cc/WpW6LQxH/luva-pvc-para-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Peça utilizada para unir dois tubos de esgoto com o mesmo diâmetro, garantindo continuidade na tubulação e vedação segura contra vazamentos. Indicada para instalações residenciais e comerciais, é compatível com tubos de 40mm e ideal para ampliações, manutenções ou emendas no sistema de esgoto."
+  },
+  {
+    "id": 1127,
+    "categoria": 6,
+    "nome": "TE Esgoto PVC de 150mm",
+    "imagem": "https://i.postimg.cc/4ySz69zg/te-pvc-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Conexão em formato de ''T'' utilizada para unir três tubos de esgoto, permitindo a derivação do fluxo em um ângulo de 90 graus. Ideal para criar ramificações no sistema de esgoto, como quando é necessário desviar a água servida para outra direção. Compatível com tubulações de 150mm."
+  },
+  {
+    "id": 1128,
+    "categoria": 6,
+    "nome": "TE Esgoto PVC de 200mm",
+    "imagem": "https://i.postimg.cc/4ySz69zg/te-pvc-esgoto-150-200.jpg",
+    "valor": "0.00",
+    "descricao": "Conexão em formato de ''T'' utilizada para unir três tubos de esgoto, permitindo a derivação do fluxo em um ângulo de 90 graus. Ideal para criar ramificações no sistema de esgoto, como quando é necessário desviar a água servida para outra direção. Compatível com tubulações de 200mm."
+  },
+  {
+    "id": 1129,
+    "categoria": 6,
+    "nome": "Junção Esgoto PVC de 150mm",
+    "imagem": "https://i.postimg.cc/Y096L3LR/juncao-pvc-para-esgoto-150-200.jpg",
+    "valor": "12.90",
+    "descricao": "Peça utilizada para realizar a derivação de uma tubulação de esgoto em um ângulo mais suave que o Tê, facilitando o escoamento da água servida sem causar retenções. Ideal para unir três tubos e direcionar o fluxo com menor turbulência. Compatível com tubulações de 150mm."
+  },
+  {
+    "id": 1130,
+    "categoria": 6,
+    "nome": "Junção Esgoto PVC de 200mm",
+    "imagem": "https://i.postimg.cc/Y096L3LR/juncao-pvc-para-esgoto-150-200.jpg",
+    "valor": "12.90",
+    "descricao": "Peça utilizada para realizar a derivação de uma tubulação de esgoto em um ângulo mais suave que o Tê, facilitando o escoamento da água servida sem causar retenções. Ideal para unir três tubos e direcionar o fluxo com menor turbulência. Compatível com tubulações de 200mm."
+  },
+  {
+    "id": 1131,
+    "categoria": 6,
+    "nome": "Cap Esgoto PVC de 150mm",
+    "imagem": "https://i.postimg.cc/QMGJY1vN/cap-pvc-esgoto-150-200.jpg",
+    "valor": "5.90",
+    "descricao": "Peça utilizada para fechar temporária ou permanentemente a extremidade de uma tubulação de esgoto, impedindo a saída de água ou mau cheiro. Muito útil em pontos de inspeção, ampliações futuras ou finalizações de rede. Compatível com tubos de 150mm."
+  },
+  {
+    "id": 1132,
+    "categoria": 6,
+    "nome": "Cap Esgoto PVC de 200mm",
+    "imagem": "https://i.postimg.cc/QMGJY1vN/cap-pvc-esgoto-150-200.jpg",
+    "valor": "5.90",
+    "descricao": "Peça utilizada para fechar temporária ou permanentemente a extremidade de uma tubulação de esgoto, impedindo a saída de água ou mau cheiro. Muito útil em pontos de inspeção, ampliações futuras ou finalizações de rede. Compatível com tubos de 200mm."
+  },
+  {
+    "id": 1133,
+    "categoria": 6,
+    "nome": "Luva Esgoto Correr PVC de 150mm",
+    "imagem": "https://i.postimg.cc/3R9jw6NW/luva-de-correr-para-esgoto-150-200.jpg",
+    "valor": "11.90",
+    "descricao": "Conexão usada para unir dois tubos de esgoto com o mesmo diâmetro, permitindo ajuste no comprimento da tubulação graças ao seu design deslizante, facilitando a instalação e manutenção. É compatível com tubos de 150mm."
+  },
+  {
+    "id": 1134,
+    "categoria": 6,
+    "nome": "Luva Esgoto Correr PVC de 200mm",
+    "imagem": "https://i.postimg.cc/3R9jw6NW/luva-de-correr-para-esgoto-150-200.jpg",
+    "valor": "11.90",
+    "descricao": "Conexão usada para unir dois tubos de esgoto com o mesmo diâmetro, permitindo ajuste no comprimento da tubulação graças ao seu design deslizante, facilitando a instalação e manutenção. É compatível com tubos de 200mm."
+  },
+  {
+    "id": 1135,
+    "categoria": 1,
+    "nome": "Furadeira Impacto 10mm (3/8'')-570w",
+    "imagem": "https://i.postimg.cc/k44GQXqN/furadeira-impacto-still.jpg",
+    "valor": "250,00",
+    "descricao": "Ferramenta elétrica de 570W utilizada para perfurar madeira, metal e alvenaria com eficiência, sendo ideal para trabalhos domésticos e profissionais que exigem precisão e potência."
+  },
+  {
+    "id": 1136,
+    "categoria": 1,
+    "nome": "Furadeira e Parafusadeira 10mm (3/8'')-570w",
+    "imagem": "https://i.postimg.cc/mhxrWYMV/furadeira-parafusadeira-100mm-570-W.jpg",
+    "valor": "300,00",
+    "descricao": "Ferramenta elétrica de 570W que combina perfuração em madeira, metal e alvenaria com função de parafusamento, sendo ideal para projetos domésticos e profissionais que precisam de versatilidade e praticidade."
+  },
+  {
+    "id": 1137,
+    "categoria": 1,
+    "nome": "Esmerilhadeira Angular 115mm (4 1/2'')-700w",
+    "imagem": "https://i.postimg.cc/0QBQcRyT/esmerilhadeira-angular-115m-700w.jpg",
+    "valor": "450,00",
+    "descricao": "Ferramenta elétrica de 570W que combina perfuração em madeira, metal e alvenaria com função de parafusamento, sendo ideal para projetos domésticos e profissionais que precisam de versatilidade e praticidade."
+  },
+  {
+    "id": 1138,
+    "categoria": 1,
+    "nome": "Serra Mármore 1400w-127v",
+    "imagem": "https://i.postimg.cc/zvHfQtLV/serra-marmore-4-12-115mm-1400w.jpg",
+    "valor": "500,00",
+    "descricao": "Ferramenta elétrica de alta potência usada para cortes precisos em mármore, granito e cerâmica, ideal para trabalhos de construção e acabamento que exigem eficiência e precisão."
   }
 ]

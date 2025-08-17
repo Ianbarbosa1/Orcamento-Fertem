@@ -53,11 +53,14 @@
     .cliente{
         margin: 15px 0px;
         gap: 15px;
+        flex-direction: row;
+        justify-content: space-between;
         & input{
-            font-size: 13px;
+            width: 250px;
+            font-size: 12px;
         }
         & select{ 
-            font-size: 13px;
+            font-size: 12px;
         }
     }
 
@@ -239,7 +242,10 @@
     .cliente{
         margin: 15px 0px;
         gap: 15px;
+        flex-direction: row;
+        justify-content: space-between;
         & input{
+            width: 250px;
             font-size: 14px;
         }
         & select{ 
@@ -378,6 +384,10 @@
         & p{
             width: 70px;
         }
+    }
+    .cliente{
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     /*MENU*/

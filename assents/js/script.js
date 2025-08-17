@@ -200,17 +200,27 @@ function removerProduto(nome) {
     }
 }
 
+
 let chamada = document.querySelector('.chamada');
 let nome = document.querySelector('#nome-cliente')
+let pagamento = document.querySelector('#pagamento')
 
 
 //DOWNLOAD DOS PRODUTOS ORÇADOS
 botaoDownload.addEventListener('click', () => {
+    let a = pagamento.options[pagamento.selectedIndex];
+    let b = a.text;
+    let formaPagamento = b
+
     let nomeUser = nome.value
     if(nomeUser === "" || nomeUser.length < 3){
-        console.log(nomeUser)
         alert('Por favor, insira o nome do cliente para gerar o orçamento.')
         nome.focus()
+    }
+    else if(formaPagamento === "Pagamento"){
+        console.log(nomeUser)
+        alert('Por favor, escolha um método de pagamento para gerar o orçamento.')
+        pagamento.focus()
     }
     else{
         const { jsPDF } = window.jspdf;
@@ -228,25 +238,29 @@ botaoDownload.addEventListener('click', () => {
     
     
         const valorTotal = produtos.reduce((acc, p) => acc + p.valor * p.quantidade, 0);
+
+
+        let imgLogo = "https://i.postimg.cc/ryn151pR/logo-sem-fundo.png";
+        doc.addImage(imgLogo, "PNG", 87, 2, 35, 15);
+
         doc.setFontSize(15);
-        doc.text("Orçamento Fertem", 14, 22);
+        doc.text("Orçamento Fertem", 105, 22, { align: "center" });
     
         doc.setFontSize(12);
-        doc.text("Av. Antônio Gomes, 1069 - Ampliação, Itaboraí - RJ", 14, 28);
-        doc.text("(21) 97167-8688", 163, 28);
-        doc.text("CNPJ: 34.442.207/0001-38", 14, 34);
-        
-        doc.setFontSize(12);
-        doc.text(`Cliente: ${nomeUser}`, 14, 40);
-    
+        doc.text("Av. Antônio Gomes, 1069 - Ampliação, Itaboraí - RJ", 14, 30);
+        doc.text("CNPJ: 34.442.207/0001-38", 14, 36);
+        doc.text(`Cliente: ${nomeUser}`, 14, 42);
+
         const data = new Date().toLocaleDateString();
         doc.setFontSize(12);
-        doc.text(`Data: ${data}`, 163, 34);
-    
+        doc.text("(21) 97167-8688", 156, 30);
+        doc.text(`Data: ${data}`, 156, 36);
+        doc.text(`Pagamento: ${formaPagamento}`, 156, 42);
+
         doc.autoTable({
             head: [colunas],
             body: linhas,
-            startY: 42,
+            startY: 48,
             margin: { left: 14, right: 14 },
             styles: {
                 fontSize: 10,
@@ -254,23 +268,40 @@ botaoDownload.addEventListener('click', () => {
         });
     
         const finalY = doc.lastAutoTable.finalY || 40;
-    
         const valorTotalFormatado = valorTotal.toLocaleString("pt-BR", {
             style: "currency",
             currency: "BRL"
         });
-    
-        doc.setFontSize(14);
-        doc.text(`Valor Total: ${valorTotalFormatado}`, 14, finalY + 10);
-    
-    
-        doc.save("orcamento-fertem.pdf");
-    
-    
-        chamada.style.display = 'flex';
-    }
 
-})
+        // Configurações da caixa (logo abaixo da tabela)
+        let caixaX = 146;
+        let caixaY = finalY + 10;
+        let caixaLargura = 50;
+        let caixaAltura = 10;
+
+        // Desenha retângulo vermelho
+        doc.setFillColor(255, 0, 0);
+        doc.rect(caixaX, caixaY, caixaLargura, caixaAltura, "F");
+
+        // Texto em branco
+        doc.setTextColor(255, 255, 255);
+        doc.setFontSize(15);
+
+        let texto = `Total: ${valorTotalFormatado}`;
+        let textoLargura = doc.getTextWidth(texto);
+
+        // Centraliza dentro da caixa
+        let textoX = caixaX + (caixaLargura / 2) - (textoLargura / 2);
+        let textoY = caixaY + (caixaAltura / 2) + 2;
+
+        // Escreve o texto centralizado
+        doc.text(texto, textoX, textoY);
+            
+                doc.save("orcamento-fertem.pdf");
+                chamada.style.display = 'flex';
+            }
+
+        })
 
 let fecharChamada = document.querySelector('#fechar-chamada');
 fecharChamada.addEventListener('click', Chamada);
