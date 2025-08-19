@@ -596,7 +596,7 @@
     "categoria": 6,
     "nome": "TE Soldável PVC de 32mm",
     "imagem": "https://i.postimg.cc/xdBH5fpw/te-90o-solda-marrom-32mm.jpg",
-    "valor": "7.90",
+    "valor": "0,00",
     "descricao": "Conexão em formato de ''T'' utilizada em tubulações hidráulicas de PVC soldável, ideal para distribuir o fluxo de água entre três direções diferentes com segurança e vedação eficiente."
   },
   {
@@ -604,7 +604,7 @@
     "categoria": 6,
     "nome": "TE Soldável PVC de 40mm",
     "imagem": "https://i.postimg.cc/Ss89tBwJ/te-90o-solda-marrom-40mm.jpg",
-    "valor": "7.90",
+    "valor": "0,00",
     "descricao": "Conexão em formato de ''T'' utilizada em tubulações hidráulicas de PVC soldável, ideal para distribuir o fluxo de água entre três direções diferentes com segurança e vedação eficiente."
   },
   {
@@ -612,7 +612,7 @@
     "categoria": 6,
     "nome": "TE Soldável PVC de 50mm",
     "imagem": "https://i.postimg.cc/nrJm8dJT/te-90o-solda-marrom-50mm.jpg",
-    "valor": "7.90",
+    "valor": "0,00",
     "descricao": "Conexão em formato de ''T'' utilizada em tubulações hidráulicas de PVC soldável, ideal para distribuir o fluxo de água entre três direções diferentes com segurança e vedação eficiente."
   },
   {
@@ -620,7 +620,7 @@
     "categoria": 6,
     "nome": "TE Azul Soldável e Roscável PVC 20mm x 1/2",
     "imagem": "https://i.postimg.cc/6p5d51Gm/te-90o-com-bucha-rosca-e-solda-azul-20mm-1-2.jpg",
-    "valor": "7.90",
+    "valor": "0,00",
     "descricao": "Conexão hidráulica em formato de ''T'' com duas extremidades para solda e uma com rosca, utilizada para integrar sistemas de água fria, permitindo transições entre conexões soldáveis e roscáveis de forma prática e segura."
   },
   {
@@ -628,7 +628,7 @@
     "categoria": 6,
     "nome": "TE Azul Soldável e Roscável PVC 20mm x 3/4",
     "imagem": "https://i.postimg.cc/RVT7mzqt/te-90o-azul-pvc-25mmx20mm-ou-3-4x1-2.jpg",
-    "valor": "7.90",
+    "valor": "0,00",
     "descricao": "Conexão hidráulica em formato de ''T'' com duas extremidades para solda e uma com rosca, utilizada para integrar sistemas de água fria, permitindo transições entre conexões soldáveis e roscáveis de forma prática e segura."
   },
   {
@@ -636,7 +636,7 @@
     "categoria": 6,
     "nome": "TE Azul Soldável e Roscável PVC 25mm x 3/4",
     "imagem": "https://i.postimg.cc/RVT7mzqt/te-90o-azul-pvc-25mmx20mm-ou-3-4x1-2.jpg",
-    "valor": "7.90",
+    "valor": "0,00",
     "descricao": "Conexão hidráulica em formato de ''T'' com duas extremidades para solda e uma com rosca, utilizada para integrar sistemas de água fria, permitindo transições entre conexões soldáveis e roscáveis de forma prática e segura."
   },
   {
@@ -644,7 +644,7 @@
     "categoria": 6,
     "nome": "Luva Soldável PVC 20mm",
     "imagem": "https://i.postimg.cc/V6b9Prbs/luva-solda-marrom-20mm.jpg",
-    "valor": "2.90",
+    "valor": "0,00",
     "descricao": "Conexão reta utilizada para unir dois tubos de PVC de 20mm por meio de solda, garantindo continuidade na tubulação e vedação eficiente em sistemas hidráulicos de água fria."
   },
   {
@@ -652,7 +652,7 @@
     "categoria": 6,
     "nome": "Luva Soldável PVC 25mm",
     "imagem": "https://i.postimg.cc/T1MVddrV/luva-solda-marrom-25mm.jpg",
-    "valor": "3.90",
+    "valor": "0,00",
     "descricao": "Conexão reta utilizada para unir dois tubos de PVC de 25mm por meio de solda, garantindo continuidade na tubulação e vedação eficiente em sistemas hidráulicos de água fria."
   },
   {
@@ -660,7 +660,7 @@
     "categoria": 6,
     "nome": "Luva Soldável PVC 32mm",
     "imagem": "https://i.postimg.cc/L5tzhcTr/luva-solda-marrom-32mm.jpg",
-    "valor": "4.90",
+    "valor": "0,00",
     "descricao": "Conexão reta utilizada para unir dois tubos de PVC de 32mm por meio de solda, garantindo continuidade na tubulação e vedação eficiente em sistemas hidráulicos de água fria."
   },
   {
@@ -668,7 +668,7 @@
     "categoria": 6,
     "nome": "Luva Soldável PVC 40mm",
     "imagem": "https://i.postimg.cc/8kMdyvSt/luva-solda-marrom-40mm.jpg",
-    "valor": "4.90",
+    "valor": "0,00",
     "descricao": "Conexão reta utilizada para unir dois tubos de PVC de 40mm por meio de solda, garantindo continuidade na tubulação e vedação eficiente em sistemas hidráulicos de água fria."
   },
   {
@@ -676,7 +676,7 @@
     "categoria": 6,
     "nome": "Luva Soldável PVC 50mm",
     "imagem": "https://i.postimg.cc/RVm720C9/luva-solda-marrom-50mm.jpg",
-    "valor": "4.90",
+    "valor": "0,00",
     "descricao": "Conexão reta utilizada para unir dois tubos de PVC de 50mm por meio de solda, garantindo continuidade na tubulação e vedação eficiente em sistemas hidráulicos de água fria."
   },
   {
@@ -684,7 +684,7 @@
     "categoria": 6,
     "nome": "Luva Azul Soldável e Roscável PVC 20mm x 1/2",
     "imagem": "https://i.postimg.cc/JhF3Fc0d/luva-com-bucha-rosca-e-solda-azul-20mm.jpg",
-    "valor": "6.90",
+    "valor": "0,00",
     "descricao": "Conexão hidráulica utilizada para unir um tubo soldável de 20mm a uma rosca de 1/2, ideal para transições entre diferentes tipos de conexões em sistemas de água fria com segurança e praticidade."
   },
   {
@@ -692,7 +692,7 @@
     "categoria": 6,
     "nome": "Luva Azul Soldável e Roscável PVC 25mm x 3/4",
     "imagem": "https://i.postimg.cc/bvrHLFyt/luva-com-bucha-rosca-e-solda-azul-25x25mm.jpg",
-    "valor": "6.90",
+    "valor": "0,00",
     "descricao": "Conexão hidráulica utilizada para unir um tubo soldável de 25mm a uma rosca de 3/4, ideal para transições entre diferentes tipos de conexões em sistemas de água fria com segurança e praticidade."
   },
   {
@@ -700,7 +700,7 @@
     "categoria": 6,
     "nome": "Luva Azul Soldável e Roscável PVC 20mm x 3/4",
     "imagem": "https://i.postimg.cc/Z5Vx8hSm/luva-com-bucha-azul-pvc-25x20mm.jpg",
-    "valor": "6.90",
+    "valor": "0,00",
     "descricao": "Conexão hidráulica utilizada para unir um tubo soldável de 20mm a uma rosca de 3/4, ideal para transições entre diferentes tipos de conexões em sistemas de água fria com segurança e praticidade."
   },
   {
@@ -708,7 +708,7 @@
     "categoria": 6,
     "nome": "Joelho Soldável 90° PVC de 20mm",
     "imagem": "https://i.postimg.cc/zG6xSGqg/joelho-90o-solda-marrom-20mm.jpg",
-    "valor": "2.90",
+    "valor": "0,00",
     "descricao": "Conexão utilizada para realizar curvas em ângulo de 90° em tubulações de PVC, ideal para condução de água fria em instalações hidráulicas residenciais e comerciais. "
   },
   {
@@ -716,7 +716,7 @@
     "categoria": 6,
     "nome": "Joelho Soldável 90° PVC de 25mm",
     "imagem": "https://i.postimg.cc/0NSct1NH/joelho-90o-solda-marrom-25mm.jpg",
-    "valor": "3.90",
+    "valor": "0,00",
     "descricao": "Conexão utilizada para realizar curvas em ângulo de 90° em tubulações de PVC, ideal para condução de água fria em instalações hidráulicas residenciais e comerciais. "
   },
   {
@@ -724,7 +724,7 @@
     "categoria": 6,
     "nome": "Joelho Soldável 90° PVC de 32mm",
     "imagem": "https://i.postimg.cc/KzyQwpkc/joelho-90o-solda-marrom-32mm.jpg",
-    "valor": "3.90",
+    "valor": "0,00",
     "descricao": "Conexão utilizada para realizar curvas em ângulo de 90° em tubulações de PVC, ideal para condução de água fria em instalações hidráulicas residenciais e comerciais."
   },
   {
@@ -732,7 +732,7 @@
     "categoria": 6,
     "nome": "Joelho Soldável 90° PVC de 40mm",
     "imagem": "https://i.postimg.cc/pTYkHQzf/joelho-90o-solda-marrom-40mm.jpg",
-    "valor": "3.90",
+    "valor": "0,00",
     "descricao": "Conexão utilizada para realizar curvas em ângulo de 90° em tubulações de PVC, ideal para condução de água fria em instalações hidráulicas residenciais e comerciais."
   },
   {
@@ -740,7 +740,7 @@
     "categoria": 6,
     "nome": "Joelho Soldável 90° PVC de 50mm",
     "imagem": "https://i.postimg.cc/bY9FcP97/joelho-90o-marrom-pvc-50mm.jpg",
-    "valor": "4.90",
+    "valor": "0,00",
     "descricao": "Conexão utilizada para realizar curvas em ângulo de 90° em tubulações de PVC, ideal para condução de água fria em instalações hidráulicas residenciais e comerciais."
   },
   {
@@ -748,7 +748,7 @@
     "categoria": 6,
     "nome": "Joelho Marrom Soldável e Roscável PVC 20mm x 1/2",
     "imagem": "https://i.postimg.cc/4N42X08m/joelho-90o-rosca-e-solda-marrom-20mm-1-2.jpg",
-    "valor": "6.90",
+    "valor": "0,00",
     "descricao": "Conexão versátil que permite a mudança de direção em 90° em tubulações, com uma ponta para solda e outra roscável, ideal para transições entre sistemas de encaixe e rosca em instalações hidráulicas de água fria."
   },
   {
@@ -756,7 +756,7 @@
     "categoria": 6,
     "nome": "Joelho Marrom Soldável e Roscável PVC 20mm x 3/4",
     "imagem": "https://i.postimg.cc/tCrSJzfD/joelho-90o-rosca-e-solda-marrom-20mm-3-4.jpg",
-    "valor": "6.90",
+    "valor": "0,00",
     "descricao": "Conexão versátil que permite a mudança de direção em 90° em tubulações, com uma ponta para solda e outra roscável, ideal para transições entre sistemas de encaixe e rosca em instalações hidráulicas de água fria."
   },
   {
@@ -764,7 +764,7 @@
     "categoria": 6,
     "nome": "Joelho Marrom Soldável e Roscável PVC 25mm x 3/4",
     "imagem": "https://i.postimg.cc/cLrDnnGW/joelho-90o-rosca-e-solda-marrom-25mm-3-4.jpg",
-    "valor": "6.90",
+    "valor": "0,00",
     "descricao": "Conexão versátil que permite a mudança de direção em 90° em tubulações, com uma ponta para solda e outra roscável, ideal para transições entre sistemas de encaixe e rosca em instalações hidráulicas de água fria."
   },
   {
@@ -772,7 +772,7 @@
     "categoria": 6,
     "nome": "Joelho Azul Soldável e Roscável PVC 20mm x 1/2",
     "imagem": "https://i.postimg.cc/8cNKJXNX/joelho-90o-com-bucha-rosca-e-solda-azul-20mm-1-2.jpg",
-    "valor": "6.90",
+    "valor": "0,00",
     "descricao": "Conexão em PVC usada para mudar a direção da tubulação em 90°, com uma ponta soldável e outra roscável. Ideal para água fria, oferece fácil instalação, boa vedação e praticidade em manutenções, unindo firmeza e versatilidade no sistema hidráulico."
   },
   {
@@ -780,7 +780,7 @@
     "categoria": 6,
     "nome": "Joelho Azul Soldável e Roscável PVC 20mm x 3/4",
     "imagem": "https://i.postimg.cc/qqwm8c7J/joelho-90o-bucha-rosca-e-solda-azul-20mm-3-4.jpg",
-    "valor": "6.90",
+    "valor": "0,00",
     "descricao": "Conexão em PVC usada para mudar a direção da tubulação em 90°, com uma ponta soldável e outra roscável. Ideal para água fria, oferece fácil instalação, boa vedação e praticidade em manutenções, unindo firmeza e versatilidade no sistema hidráulico."
   },
   {
@@ -788,7 +788,7 @@
     "categoria": 6,
     "nome": "Joelho Azul Soldável e Roscável PVC 25mm x 3/4",
     "imagem": "https://i.postimg.cc/C1jrKpTf/joelho-90o-bucha-rosca-e-solda-azul-25mm-3-4.jpg",
-    "valor": "6.90",
+    "valor": "0,00",
     "descricao": "Conexão em PVC usada para mudar a direção da tubulação em 90°, com uma ponta soldável e outra roscável. Ideal para água fria, oferece fácil instalação, boa vedação e praticidade em manutenções, unindo firmeza e versatilidade no sistema hidráulico."
   },
   {
@@ -1056,7 +1056,7 @@
     "categoria": 6,
     "nome": "Junção Esgoto PVC de 150mm",
     "imagem": "https://i.postimg.cc/Y096L3LR/juncao-pvc-para-esgoto-150-200.jpg",
-    "valor": "12.90",
+    "valor": "0,00",
     "descricao": "Peça utilizada para realizar a derivação de uma tubulação de esgoto em um ângulo mais suave que o Tê, facilitando o escoamento da água servida sem causar retenções. Ideal para unir três tubos e direcionar o fluxo com menor turbulência. Compatível com tubulações de 150mm."
   },
   {
@@ -1064,7 +1064,7 @@
     "categoria": 6,
     "nome": "Junção Esgoto PVC de 200mm",
     "imagem": "https://i.postimg.cc/Y096L3LR/juncao-pvc-para-esgoto-150-200.jpg",
-    "valor": "12.90",
+    "valor": "0,00",
     "descricao": "Peça utilizada para realizar a derivação de uma tubulação de esgoto em um ângulo mais suave que o Tê, facilitando o escoamento da água servida sem causar retenções. Ideal para unir três tubos e direcionar o fluxo com menor turbulência. Compatível com tubulações de 200mm."
   },
   {
@@ -1072,7 +1072,7 @@
     "categoria": 6,
     "nome": "Cap Esgoto PVC de 150mm",
     "imagem": "https://i.postimg.cc/QMGJY1vN/cap-pvc-esgoto-150-200.jpg",
-    "valor": "5.90",
+    "valor": "0,00",
     "descricao": "Peça utilizada para fechar temporária ou permanentemente a extremidade de uma tubulação de esgoto, impedindo a saída de água ou mau cheiro. Muito útil em pontos de inspeção, ampliações futuras ou finalizações de rede. Compatível com tubos de 150mm."
   },
   {
@@ -1080,7 +1080,7 @@
     "categoria": 6,
     "nome": "Cap Esgoto PVC de 200mm",
     "imagem": "https://i.postimg.cc/QMGJY1vN/cap-pvc-esgoto-150-200.jpg",
-    "valor": "5.90",
+    "valor": "0,00",
     "descricao": "Peça utilizada para fechar temporária ou permanentemente a extremidade de uma tubulação de esgoto, impedindo a saída de água ou mau cheiro. Muito útil em pontos de inspeção, ampliações futuras ou finalizações de rede. Compatível com tubos de 200mm."
   },
   {
@@ -1088,7 +1088,7 @@
     "categoria": 6,
     "nome": "Luva Esgoto Correr PVC de 150mm",
     "imagem": "https://i.postimg.cc/3R9jw6NW/luva-de-correr-para-esgoto-150-200.jpg",
-    "valor": "11.90",
+    "valor": "0,00",
     "descricao": "Conexão usada para unir dois tubos de esgoto com o mesmo diâmetro, permitindo ajuste no comprimento da tubulação graças ao seu design deslizante, facilitando a instalação e manutenção. É compatível com tubos de 150mm."
   },
   {
@@ -1096,7 +1096,7 @@
     "categoria": 6,
     "nome": "Luva Esgoto Correr PVC de 200mm",
     "imagem": "https://i.postimg.cc/3R9jw6NW/luva-de-correr-para-esgoto-150-200.jpg",
-    "valor": "11.90",
+    "valor": "0,00",
     "descricao": "Conexão usada para unir dois tubos de esgoto com o mesmo diâmetro, permitindo ajuste no comprimento da tubulação graças ao seu design deslizante, facilitando a instalação e manutenção. É compatível com tubos de 200mm."
   },
   {
@@ -1104,7 +1104,7 @@
     "categoria": 1,
     "nome": "Furadeira Impacto 10mm (3/8'')-570w",
     "imagem": "https://i.postimg.cc/k44GQXqN/furadeira-impacto-still.jpg",
-    "valor": "250,00",
+    "valor": "0,00",
     "descricao": "Ferramenta elétrica de 570W utilizada para perfurar madeira, metal e alvenaria com eficiência, sendo ideal para trabalhos domésticos e profissionais que exigem precisão e potência."
   },
   {
@@ -1112,7 +1112,7 @@
     "categoria": 1,
     "nome": "Furadeira e Parafusadeira 10mm (3/8'')-570w",
     "imagem": "https://i.postimg.cc/mhxrWYMV/furadeira-parafusadeira-100mm-570-W.jpg",
-    "valor": "300,00",
+    "valor": "0,00",
     "descricao": "Ferramenta elétrica de 570W que combina perfuração em madeira, metal e alvenaria com função de parafusamento, sendo ideal para projetos domésticos e profissionais que precisam de versatilidade e praticidade."
   },
   {
@@ -1120,7 +1120,7 @@
     "categoria": 1,
     "nome": "Esmerilhadeira Angular 115mm (4 1/2'')-700w",
     "imagem": "https://i.postimg.cc/0QBQcRyT/esmerilhadeira-angular-115m-700w.jpg",
-    "valor": "450,00",
+    "valor": "0,00",
     "descricao": "Ferramenta elétrica de 570W que combina perfuração em madeira, metal e alvenaria com função de parafusamento, sendo ideal para projetos domésticos e profissionais que precisam de versatilidade e praticidade."
   },
   {
@@ -1128,7 +1128,255 @@
     "categoria": 1,
     "nome": "Serra Mármore 1400w-127v",
     "imagem": "https://i.postimg.cc/zvHfQtLV/serra-marmore-4-12-115mm-1400w.jpg",
-    "valor": "500,00",
+    "valor": "0,00",
     "descricao": "Ferramenta elétrica de alta potência usada para cortes precisos em mármore, granito e cerâmica, ideal para trabalhos de construção e acabamento que exigem eficiência e precisão."
+  },
+  {
+    "id": 1139,
+    "categoria": 6,
+    "nome": "Nipel Roscável PVC de 1/2",
+    "imagem": "https://i.postimg.cc/9f6WywH5/niple-paralelo-rosca-branco.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão curta utilizada para unir dois pontos de tubulação com rosca de 1/2 polegada, garantindo vedação segura e praticidade em instalações hidráulicas.."
+  },
+  {
+    "id": 1140,
+    "categoria": 6,
+    "nome": "Plug Roscável PVC de 1/2",
+    "imagem": "https://i.postimg.cc/MprZKrsG/plug-rosca-branco.jpg",
+    "valor": "0,00",
+    "descricao": "Peça usada para vedar a saída de tubos roscados de 1/2 polegada, servindo para fechar temporária ou definitivamente uma tubulação hidráulica.."
+  },
+  {
+    "id": 1141,
+    "categoria": 6,
+    "nome": "Luva Roscável PVC de 1/2",
+    "imagem": "https://i.postimg.cc/3xwJhHF6/luva-rosca-branca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão utilizada para unir dois tubos com rosca de 1/2 polegada, garantindo continuidade e vedação em instalações hidráulicas."
+  },
+  {
+    "id": 1142,
+    "categoria": 6,
+    "nome": "Cap Roscável PVC de 1/2",
+    "imagem": "https://i.postimg.cc/BvkvNwDz/cap-pvc-branco-rosca.jpg",
+    "valor": "0,00",
+    "descricao": "Peça de acabamento usada para fechar a extremidade de tubos roscados de 1/2 polegada, proporcionando vedação e proteção em sistemas hidráulicos."
+  },
+  {
+    "id": 1143,
+    "categoria": 6,
+    "nome": "União Roscável PVC de 1/2",
+    "imagem": "https://i.postimg.cc/gjDm9MXm/uniao-rosca-branca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão desmontável que permite unir dois tubos de 1/2 polegada com rosca, facilitando manutenções e desmontagens em sistemas hidráulicos."
+  },
+  {
+    "id": 1144,
+    "categoria": 6,
+    "nome": "TE Roscável PVC de 1/2",
+    "imagem": "https://i.postimg.cc/wByqtcPQ/te-pvc-branco-rosca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão em formato de “T” usada para derivar o fluxo de água em três direções em tubulações de 1/2 polegada com rosca."
+  },
+  {
+    "id": 1145,
+    "categoria": 6,
+    "nome": "Curva Roscável PVC de 1/2",
+    "imagem": "https://i.postimg.cc/cH3LzMBL/curva-90o-pvc-branco-rosca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão em formato de ângulo usada para alterar a direção do fluxo em tubulações de 1/2 polegada com rosca, garantindo vedação e continuidade hidráulica."
+  },
+  {
+    "id": 1146,
+    "categoria": 6,
+    "nome": "Joelho Roscável PVC de 1/2",
+    "imagem": "https://i.postimg.cc/PJk5npSz/joelho-90o-rosca-branco.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão em formato de ângulo de 90° utilizada para mudar a direção do fluxo em tubulações de 1/2 polegada com rosca, garantindo vedação e alinhamento seguro."
+  },
+  {
+    "id": 1147,
+    "categoria": 6,
+    "nome": "Luva de Correr Roscável de 1/2",
+    "imagem": "https://i.postimg.cc/MZyGb5Gs/luva-de-correr-rosca-branca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão ajustável que une dois tubos de 1/2 polegada com rosca, permitindo movimentação ou alinhamento preciso em sistemas hidráulicos."
+  },
+  {
+    "id": 1148,
+    "categoria": 6,
+    "nome": "Luva de Redução Roscável PVC de 3/4 x 1/2",
+    "imagem": "https://i.postimg.cc/9FCQx9Rc/luva-de-reducao-rosca-branca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão usada para unir tubos de diâmetros diferentes, 3/4 e 1/2 polegada, mantendo vedação e continuidade em sistemas hidráulicos."
+  },
+  {
+    "id": 1149,
+    "categoria": 6,
+    "nome": "Luva de Redução Roscável PVC de 1'' x 3/4",
+    "imagem": "https://i.postimg.cc/9FCQx9Rc/luva-de-reducao-rosca-branca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão utilizada para unir tubos de 1 polegada e 3/4 polegada, garantindo vedação e adaptação entre diferentes diâmetros em instalações hidráulicas."
+  },
+  {
+    "id": 1150,
+    "categoria": 6,
+    "nome": "Bucha de Redução Roscável PVC de 3/4 x 1/2",
+    "imagem": "https://i.postimg.cc/Y0fqrrVc/bucha-de-reducao-curta-rosca-branca.jpg",
+    "valor": "0,00",
+    "descricao": "Peça usada para adaptar e reduzir a conexão entre tubos de 3/4 e 1/2 polegada com rosca, garantindo vedação e compatibilidade em sistemas hidráulicos."
+  },
+  {
+    "id": 1151,
+    "categoria": 6,
+    "nome": "Bucha de Redução Roscável PVC de 1'' x 3/4",
+    "imagem": "https://i.postimg.cc/Y0fqrrVc/bucha-de-reducao-curta-rosca-branca.jpg",
+    "valor": "0,00",
+    "descricao": "Peça usada para adaptar e reduzir a conexão entre tubos de 1 polegada e 3/4 polegada com rosca, garantindo vedação e compatibilidade em sistemas hidráulicos."
+  },
+  {
+    "id": 1152,
+    "categoria": 6,
+    "nome": "Nipel Roscável PVC de 3/4",
+    "imagem": "https://i.postimg.cc/9f6WywH5/niple-paralelo-rosca-branco.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão curta utilizada para unir dois pontos de tubulação com rosca de 3/4 polegada, garantindo vedação segura e praticidade em instalações hidráulicas.."
+  },
+  {
+    "id": 1153,
+    "categoria": 6,
+    "nome": "Plug Roscável PVC de 3/4",
+    "imagem": "https://i.postimg.cc/MprZKrsG/plug-rosca-branco.jpg",
+    "valor": "0,00",
+    "descricao": "Peça usada para vedar a saída de tubos roscados de 3/4 polegada, servindo para fechar temporária ou definitivamente uma tubulação hidráulica.."
+  },
+  {
+    "id": 1154,
+    "categoria": 6,
+    "nome": "Luva Roscável PVC de 3/4",
+    "imagem": "https://i.postimg.cc/3xwJhHF6/luva-rosca-branca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão utilizada para unir dois tubos com rosca de 3/4 polegada, garantindo continuidade e vedação em instalações hidráulicas."
+  },
+  {
+    "id": 1155,
+    "categoria": 6,
+    "nome": "Cap Roscável PVC de 3/4",
+    "imagem": "https://i.postimg.cc/BvkvNwDz/cap-pvc-branco-rosca.jpg",
+    "valor": "0,00",
+    "descricao": "Peça de acabamento usada para fechar a extremidade de tubos roscados de 3/4 polegada, proporcionando vedação e proteção em sistemas hidráulicos."
+  },
+  {
+    "id": 1156,
+    "categoria": 6,
+    "nome": "União Roscável PVC de 3/4",
+    "imagem": "https://i.postimg.cc/gjDm9MXm/uniao-rosca-branca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão desmontável que permite unir dois tubos de 3/4 polegada com rosca, facilitando manutenções e desmontagens em sistemas hidráulicos."
+  },
+  {
+    "id": 1157,
+    "categoria": 6,
+    "nome": "TE Roscável PVC de 3/4",
+    "imagem": "https://i.postimg.cc/wByqtcPQ/te-pvc-branco-rosca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão em formato de “T” usada para derivar o fluxo de água em três direções em tubulações de 3/4 polegada com rosca."
+  },
+  {
+    "id": 1158,
+    "categoria": 6,
+    "nome": "Curva Roscável PVC de 3/4",
+    "imagem": "https://i.postimg.cc/cH3LzMBL/curva-90o-pvc-branco-rosca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão em formato de ângulo usada para alterar a direção do fluxo em tubulações de 3/4 polegada com rosca, garantindo vedação e continuidade hidráulica."
+  },
+  {
+    "id": 1159,
+    "categoria": 6,
+    "nome": "Joelho Roscável PVC de 3/4",
+    "imagem": "https://i.postimg.cc/PJk5npSz/joelho-90o-rosca-branco.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão em formato de ângulo de 90° utilizada para mudar a direção do fluxo em tubulações de 3/4 polegada com rosca, garantindo vedação e alinhamento seguro."
+  },
+  {
+    "id": 1160,
+    "categoria": 6,
+    "nome": "Luva de Correr Roscável de 3/4",
+    "imagem": "https://i.postimg.cc/MZyGb5Gs/luva-de-correr-rosca-branca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão ajustável que une dois tubos de 3/4 polegada com rosca, permitindo movimentação ou alinhamento preciso em sistemas hidráulicos."
+  },
+  {
+    "id": 1161,
+    "categoria": 6,
+    "nome": "Nipel Roscável PVC de 1''",
+    "imagem": "https://i.postimg.cc/9f6WywH5/niple-paralelo-rosca-branco.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão curta utilizada para unir dois pontos de tubulação com rosca de 1'' polegada, garantindo vedação segura e praticidade em instalações hidráulicas.."
+  },
+  {
+    "id": 1162,
+    "categoria": 6,
+    "nome": "Plug Roscável PVC de 1''",
+    "imagem": "https://i.postimg.cc/MprZKrsG/plug-rosca-branco.jpg",
+    "valor": "0,00",
+    "descricao": "Peça usada para vedar a saída de tubos roscados de 1'' polegada, servindo para fechar temporária ou definitivamente uma tubulação hidráulica.."
+  },
+  {
+    "id": 1163,
+    "categoria": 6,
+    "nome": "Luva Roscável PVC de 1''",
+    "imagem": "https://i.postimg.cc/3xwJhHF6/luva-rosca-branca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão utilizada para unir dois tubos com rosca de 1'' polegada, garantindo continuidade e vedação em instalações hidráulicas."
+  },
+  {
+    "id": 1164,
+    "categoria": 6,
+    "nome": "Cap Roscável PVC de 1''",
+    "imagem": "https://i.postimg.cc/BvkvNwDz/cap-pvc-branco-rosca.jpg",
+    "valor": "0,00",
+    "descricao": "Peça de acabamento usada para fechar a extremidade de tubos roscados de 1'' polegada, proporcionando vedação e proteção em sistemas hidráulicos."
+  },
+  {
+    "id": 1165,
+    "categoria": 6,
+    "nome": "União Roscável PVC de 1''",
+    "imagem": "https://i.postimg.cc/gjDm9MXm/uniao-rosca-branca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão desmontável que permite unir dois tubos de 1'' polegada com rosca, facilitando manutenções e desmontagens em sistemas hidráulicos."
+  },
+  {
+    "id": 1166,
+    "categoria": 6,
+    "nome": "TE Roscável PVC de 1''",
+    "imagem": "https://i.postimg.cc/wByqtcPQ/te-pvc-branco-rosca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão em formato de “T” usada para derivar o fluxo de água em três direções em tubulações de 1'' polegada com rosca."
+  },
+  {
+    "id": 1167,
+    "categoria": 6,
+    "nome": "Curva Roscável PVC de 1''",
+    "imagem": "https://i.postimg.cc/cH3LzMBL/curva-90o-pvc-branco-rosca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão em formato de ângulo usada para alterar a direção do fluxo em tubulações de 1'' polegada com rosca, garantindo vedação e continuidade hidráulica."
+  },
+  {
+    "id": 1168,
+    "categoria": 6,
+    "nome": "Joelho Roscável PVC de 1''",
+    "imagem": "https://i.postimg.cc/PJk5npSz/joelho-90o-rosca-branco.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão em formato de ângulo de 90° utilizada para mudar a direção do fluxo em tubulações de 1'' polegada com rosca, garantindo vedação e alinhamento seguro."
+  },
+  {
+    "id": 1169,
+    "categoria": 6,
+    "nome": "Luva de Correr Roscável de 1''",
+    "imagem": "https://i.postimg.cc/MZyGb5Gs/luva-de-correr-rosca-branca.jpg",
+    "valor": "0,00",
+    "descricao": "Conexão ajustável que une dois tubos de 1'' polegada com rosca, permitindo movimentação ou alinhamento preciso em sistemas hidráulicos."
   }
 ]
