@@ -72,6 +72,7 @@ body {
     }
 }
 
+
 /*CARRINHO DE COMPRA*/
 .container-carrinho {
     height: 100%;
@@ -136,8 +137,8 @@ body {
     gap: 30px;
     padding: 3px;
     font-size: 17px;
-
     text-align: start;
+
     & p{
         width: 90px;
     }
@@ -182,6 +183,7 @@ body {
     flex-direction: column;
     margin: 20px 0px;
     gap: 20px;
+
     & input{
         width: 300px;
         outline: none;
@@ -226,87 +228,80 @@ body {
 
 /*ENTRADA DO SITE*/
 header {
-    height: 200px;
+    height: 90px;
     width: 100%;
-    background-color: #0264b2;
-}
-header::before{
-    content: 'ORÇAMENTO FERTEM';
-    width: 100%;
-    top: 15px;
-    position: absolute;
-    color: aliceblue;
-    font-size: 45px;;
-    font-weight: 800;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    filter: drop-shadow(0px 0px 10px rgba(247, 246, 246, 0.76));
-    animation: detalhe 10s ease-in-out infinite alternate;
+    background-color: aliceblue;
+    filter: drop-shadow(0px 0px 1.5px gray);
 }
 .voltar {
     position: absolute;
     padding: 10px;
-    color: aliceblue;
+    color: #181818;
+    font-weight: 500;
     z-index: +1;
     &:hover{
-        color: rgba(240, 248, 255, 0.548);
+        color: rgba(255, 99, 71, 0.678);
     }
 }
 .inicio {
-    padding: 20px 0px;
-    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+    justify-content: space-around;
     margin: 0px 200px;
 
     & .logo {
-        height: 70px;
-        width: 152px;
-        filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.76));
+        height: 55px;
+        width: 125px;
+        filter: drop-shadow(0px 0px 5px gray);
     }
 }
 .abertura-carrinho {
-    border-radius: 7px;
-    padding: 2px 7px;
-    gap: 5px;
+    border-radius: 5px;
+    padding: 3px;
     cursor: pointer;
     z-index: +3;
-    color: #0263b2;
-    background-color: aliceblue;
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.76));
+    color: #181818;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 12px;
     transition: all 0.5s ease-in-out;
-
+    color: #f01f2b;
     &:hover img{
         padding: 3px;
     }
-
     & img{
-        height: 43px;
+        height: 40px;
+        margin-right: 7px;
     }
-    & .contador{
-        color: tomato;
+    & p{
+        position: absolute;
+        top: 15px;
+        margin-left: 30px;
+        z-index: +1;
+        padding: 5px;
+        background-color: #f01f29;
+        border-radius: 50%;
+        color: aliceblue;
+        font-weight: 700;
     }
 }
 .barra-pesquisa {
-    margin: 25px 0px 0px 24px;
+    margin: 0px 0px 0px 24px;
 
     .pesquisa {
         height: 45px;
-        width: 400px;
+        width: 450px;
         outline: none;
         padding: 0px 30px 0px 7px;
         border: none;
+        filter: drop-shadow(0px 0px 1px gray);
         border-radius: 3px;
         font-size: 18px;
         transition: all 1s ease;
-
         &:hover {
             filter: drop-shadow(0px 0px 5px rgb(235, 226, 226));
         }
 
         &::placeholder {
-            color: #0263b2;
+            color: gray;
         }
     }
     .lupa {
@@ -315,6 +310,7 @@ header::before{
         top: 2px;
     }
 }
+
 
 /*AVISO QUE O PRODUTO FOI INSERIDO NO CARRINHO*/
 .aviso {
@@ -325,9 +321,10 @@ header::before{
     font-weight: 500;
 }
 
+
 /*PRODUTOS*/
 main{
-    padding: 50px 0px;
+    padding: 20px 0px 50px 0px;
     flex-direction: column;
 }
 .titulo-externo{
@@ -345,10 +342,11 @@ main{
         padding: 10px;
         background-color: #f01f2b;
         border-radius: 2px 10px;
+        font-size: 20px;
     }
 }
 .container-produtos {
-    max-height: 88dvh;
+    max-height: 78dvh;
     overflow-y: auto;
     width: 1500px;
     padding: 20px;
@@ -374,16 +372,13 @@ main{
         &:hover {
             filter: drop-shadow(0px 0px 3px gray);
         }
-
         & nav {
             padding-top: 10px;
             text-align: center;
         }
-
         & img {
             width: 70%;
         }
-
         & h2 {
             font-family: "Karla", sans-serif;
             font-size: 18px;
@@ -395,7 +390,6 @@ main{
             margin: 0px 7px;
             height: 44px;
         }
-
         & h3 {
             color: gray;
             font-weight: 400;
@@ -403,7 +397,6 @@ main{
             margin: 7px 7px;
             font-family: "Karla", sans-serif;
         }
-
         & p {
             color: #f01f2b;
             font-weight: bold;
@@ -414,7 +407,6 @@ main{
                 font-size: 15px;
             }
         }
-
         .botao {
             margin: 10px 10px 0px 10px;
 
@@ -432,8 +424,7 @@ main{
                 border-radius: 5px;
                 text-align: center;
                 font-size: 14px;
-                font-family: "Quicksand", sans-serif;
-
+                font-weight: 500;
                 &:hover {
                     color: rgba(240, 248, 255, 0.774);
                 }
@@ -471,7 +462,6 @@ footer {
     & img {
         height: 100px;
     }
-
     & address {
         font-weight: 500;
         margin: 10px 0px;
@@ -487,11 +477,9 @@ footer {
         align-items: center;
         gap: 7px;
         color: aliceblue;
-
         &:hover {
             color: rgb(179, 184, 189);
         }
-
         & img {
             height: 30px;
             width: 30px;
@@ -502,14 +490,12 @@ footer {
     margin-top: 20px;
     gap: 30px;
 
-    & h1,
-    h2 {
+    & h1, h2 {
         font-weight: 300;
         font-size: 20px;
         max-width: 350px;
         text-align: center;
     }
-
     & nav {
         height: 10px;
         width: 3px;
@@ -518,7 +504,6 @@ footer {
 }
 
 /*TRANSIÇÕES*/
-
 @keyframes detalhe {
     0% {
         filter: drop-shadow(0px 0px 10px rgba(247, 246, 246, 0.76));

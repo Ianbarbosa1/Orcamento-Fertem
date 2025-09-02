@@ -71,16 +71,18 @@
         <section class="inicio">
             <img src="./assents/imagens/logo-sem-fundo.png" alt="fertem-logo" class="logo"> 
             
+            <section class="barra-pesquisa">
+                <input type="text" placeholder="Qual produto deseja encontrar?" class="pesquisa" id="pesquisa" autocomplete="off"/>
+                <img src="./assents/imagens/Icones/lupa.svg" alt="lupa" class="lupa">
+            </section>
+
             <div class="abertura-carrinho" onclick="abrirCart()">
-                <img src="./assents/imagens/Icones/orcamento-icon.png" alt="Orcamento" title="Produtos adicionados">
-                <p>Adicionados (<span class="contador">0</span>)</p>
+                <img src="./assents/imagens/Icones/carrinho.svg" alt="Orcamento" title="Produtos adicionados">
+                <p class="div-cont">(<span class="contador">0</span>)</p>
+                
             </div>
         </section>
 
-        <section class="barra-pesquisa">
-            <input type="text" placeholder="Qual produto deseja encontrar?" class="pesquisa" id="pesquisa" autocomplete="off"/>
-            <img src="./assents/imagens/Icones/lupa.svg" alt="lupa" class="lupa">
-        </section>
     </header>
 
     <!--PRODUTOS-->

@@ -5,6 +5,7 @@
         width: 100%;
         padding: 10px;
         gap: 25px;
+
         & h1{
             font-size: 18px;
         }
@@ -21,6 +22,7 @@
     /*CARRINHO*/
     .interno-carrinho {
         width: 98%;
+
         & h1{
             font-size: 25px;
         }
@@ -31,6 +33,7 @@
     .produto-valor{
         gap: 5px;
         font-size: 11px;
+
         & p{
             width: 50px;
         }
@@ -55,6 +58,7 @@
         gap: 15px;
         flex-direction: row;
         justify-content: space-between;
+
         & input{
             width: 250px;
             font-size: 12px;
@@ -67,8 +71,8 @@
 
     /*MENU*/
     header {
-        height: 150px;
-        width: 100%;
+        height: 115px;
+        border-radius: 0% 0% 3% 3% / 0% 0% 10% 10%;
     }
     header::before{
         height: 30px;
@@ -77,6 +81,7 @@
     .inicio {
         margin: 0px 5px;
         padding: 50px 0px 10px 0px;
+
         .logo{
             height: 35px;
             width:68px;
@@ -89,18 +94,29 @@
         font-size: 8px;
         padding: 2px;
         gap: 3px;
+
         & img{
             height: 25px;
         }
+        & p{
+            top: 45px;
+            margin-left: 23px;
+        }
     }
     .barra-pesquisa{
-        margin: 7px 0px 0px 24px;
+        margin: 0px;
+
         .pesquisa {
-            height: 35px;
-            width: 270px;
-            font-size: 12px;
+            height: 32px;
+            width: 210px;
+            font-size: 11px;
             margin-left: 15px;
             padding: 0px 25px 0px 7px;
+        }
+        .lupa {
+            height: 20px;
+            right: 23px;
+            top: 2px;
         }
     }
 
@@ -120,23 +136,26 @@
     .all-produtos{
         gap: 15px 10px;
         justify-content: center;
+
         & .product {
             margin-left: 0px;
-            height: 240px;
+            height: 243px;
             width: 140px;
             & h2{
                 font-size: 12px;
-                height: 28px;
+                height: 42px;
+                -webkit-line-clamp: 3;
             }
             & h3{
                 font-size: 11px;
             }
             & p{
-                font-size: 18px;
+                font-size: 17px;
             }
             .botao {
                 button{
                     font-size: 11px;
+                    padding: 5px;
                 }
             }
             .botao button::after{
@@ -160,6 +179,7 @@
        width: 100%;
         font-size: 13px;
         text-align: center;
+
         & img{
           height: 90px;
           width: 160px; 
@@ -181,6 +201,7 @@
     .end{
         margin-top: 30px;
         gap: 25px;
+        
         & h1, h2{
             font-size: 11px;
         }
@@ -194,6 +215,7 @@
         width: 100%;
         padding: 10px;
         gap: 25px;
+
         & h1{
             font-size: 20px;
         }
@@ -208,8 +230,9 @@
     }
 
     /*CARRINHO*/
-    .interno-carrinho {
+    .interno-carrinho{
         width: 98%;
+
         & h1{
             font-size: 25px;
         }
@@ -220,6 +243,7 @@
     .produto-valor{
         gap: 5px;
         font-size: 14px;
+
         & p{
             width: 70px;
         }
@@ -244,6 +268,7 @@
         gap: 15px;
         flex-direction: row;
         justify-content: space-between;
+
         & input{
             width: 250px;
             font-size: 14px;
@@ -256,34 +281,41 @@
 
     /*MENU*/
     header {
-        height: 180px;
-    }
-    header::before{
-        height: 30px;
-        font-size: 25px;
+        height: 110px;
+        border-radius: 0% 0% 3% 3% / 0% 0% 10% 10%;
     }
     .inicio {
         margin: 0px 15px;
         padding-top: 50px;
         .logo{
-            height: 45px;
-            width: 90px;
+            height: 40px;
+            width: 85px;
         }
     }
     .abertura-carrinho {
         font-size: 10px;
         padding: 2px;
         & img{
-            height: 30px;
+            height: 25px;
+        }
+        & p{
+            top: 45px;
+            margin-left: 23px;
         }
     }
     .barra-pesquisa{
-        margin: 5px 0px 0px 24px;
+        margin: 0px;
         .pesquisa {
-            height: 38px;
-            width: 350px;
-            font-size: 15px;
+            height: 36px;
+            width: 260px;
+            font-size: 14px;
             margin-left: 15px;
+        }
+        .lupa{
+            height: 20px;
+            position: relative;
+            right: 25px;
+            top: 2px;
         }
     }
 
@@ -302,21 +334,23 @@
         justify-content: center;
         & .product {
             margin-left: 5px;
-            height: 290px;
+            height: 279px;
             width: 165px;
             & h2 {
-                font-size: 15px;
-                height: 36px;
+                font-size: 13px;
+                height: 50px;
+                -webkit-line-clamp: 3;
             }
             & h3 {
                 font-size: 12px;
             }
             & p {
-                font-size: 20px;
+                font-size: 18px;
             }
             .botao {
                 button{
-                    font-size: 13px;
+                    font-size: 11px;
+                    padding: 5px;
                 }
             }
             .botao button::after{
@@ -371,6 +405,7 @@
     /*CARRINHO*/
     .interno-carrinho {
         width: 98%;
+
         & h1{
             font-size: 25px;
         }
@@ -381,6 +416,7 @@
     .produto-valor{
         gap: 30px;
         font-size: 14px;
+
         & p{
             width: 70px;
         }
@@ -392,15 +428,13 @@
 
     /*MENU*/
     header {
-        height: 160px;
-    }
-    header::before{
-        height: 30px;
-        font-size: 30px;
+        height: 100px;
+        border-radius: 0% 0% 3% 3% / 0% 0% 10% 10%;
     }
     .inicio {
         padding-top: 35px;
         margin: 0px 20px;
+
         .logo{
             height: 55px;
             width: 110px;
@@ -409,30 +443,38 @@
     .abertura-carrinho {
         font-size: 12px;
         padding: 2px 4px;
+
         & img{
             height: 35px;
+        }
+        & p{
+            top: 33px;
         }
     }
     .barra-pesquisa{
         margin: 5px 0px 0px 24px;
+
         .pesquisa {
             height: 38px;
+            width: 350px;
             font-size: 16px;
         }
     }
 
     /*PRODUTOS*/
     .container-produtos {
-        width: 585px;
+        width: 589px;
     }
     .all-produtos{
         gap: 20px 0px;
+
         & .product {
-            height: 280px;
+            height: 290px;
             width: 165px;
             & h2 {
-                font-size: 16px;
-                height: 38px;
+                font-size: 15px;
+                height: 53px;
+                -webkit-line-clamp: 3;
             }
             & h3 {
                 font-size: 14px;
@@ -442,6 +484,7 @@
             }
             .botao {
                 button{
+                    padding: 5px;
                     font-size: 13px;
                 }
             }
@@ -460,6 +503,7 @@
     .sobre{
         max-width: 280px;
         font-size: 15px;
+
         & img{
           height: 90px;
           width: 160px;  
@@ -471,12 +515,14 @@
     }
     .redes{
         gap: 25px;
+
         & a{
             font-size: 15px;
         }
     }
     .end{
         gap: 25px;
+
         & h1, h2{
             font-size: 17px;
             max-width: 100%;
@@ -492,21 +538,21 @@
     
     /*MENU*/
     header {
-        height: 150px;
-    }
-    header::before{
-        font-size: 35px;
+        height: 80px;
+        border-radius: 0% 0% 1% 1% / 0% 0% 20% 20%;
     }
     .inicio {
+        padding: 10px 0px 0px 0px;
         margin: 0px 80px;
+
         .logo{
             height: 55px;
             width: 118px;
         }
     }
     .abertura-carrinho {
-        font-size: 12px;
         padding: 2px 4px;
+
         & img{
             height: 35px;
         }
@@ -521,22 +567,32 @@
 
     /*PRODUTOS*/
     .container-produtos {
-        width: 840px;
+        max-height: 81dvh;
+        width: 632px;
     }
     .all-produtos{
         gap: 20px 0px;
+
         & .product {
-            height: 290px;
+            height: 300px;
             width: 180px;
             & h2 {
-                font-size: 16px;
-                height: 39px;
+                font-size: 15px;
+                height: 53px;
+                -webkit-line-clamp: 3;
             }
             & h3 {
                 font-size: 14px;
             }
             & p {
-                font-size: 23px;
+                font-size: 20px;
+            }
+            .botao {
+
+                button{
+                    padding: 5px;
+                    font-size: 12px;
+                }
             }
         }
     }
@@ -550,44 +606,32 @@
 }
 
 @media screen and (min-width:1000px) and (max-width:1299px){
-    /*MENU*/
-    header::before{
-        font-size: 40px;
-    }
-    .inicio {
-        margin: 0px 100px;
-        .logo{
-            height: 55px;
-            width: 118px;
-        }
-    }
-    .abertura-carrinho {
-        font-size: 12px;
-        padding: 2px 4px;
-        & img{
-            height: 35px;
-        }
-    }
-
-
     /*PRODUTOS*/
     .container-produtos {
         width: 930px;
     }
     .all-produtos{
         gap: 15px 5px;
+
         & .product {
-            height: 305px;
+            height: 315px;
             width: 200px;
             & h2 {
-                font-size: 16px;
-                height: 38px;
+                font-size: 15px;
+                height: 53px;
+                -webkit-line-clamp: 3;
             }
             & h3 {
                 font-size: 14px;
             }
             & p {
-                font-size: 23px;
+                font-size: 20px;
+            }
+            .botao {
+                button{
+                    padding: 5px;
+                    font-size: 12px;
+                }
             }
         }
     }
@@ -601,11 +645,6 @@
 }
 
 @media screen and (min-width:1300px) and (max-width:1550px) {
-    /*MENU*/
-    header::before{
-        font-size: 40px;
-    }
-
     /*PRODUTOS*/
     .container-produtos {
         width: 1200px;

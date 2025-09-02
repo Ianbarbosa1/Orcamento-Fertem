@@ -16,7 +16,7 @@ function exibirProdutos(produtos) {
     if (produtos.length === 0) {
         containerProduto.innerHTML = ` 
         <div style='color: red;' > 
-        <p>Nenhum produto encontrado.</p>
+        <strong>Nenhum produto encontrado.</strong>
         <li>Verifique se o nome do produto foi escrito corretamente.</li>
         <li>Nessa pesquisa todo tipo de acentuação gráfica é considerada.</li>
         </div>
@@ -88,6 +88,7 @@ var valorFinal = document.querySelector('.valor-total')
 var localValor = document.querySelector('.valor-add')
 var confirmacao = document.querySelector('.aviso')
 var contador = document.querySelector('.contador')
+var secao_contador = document.querySelector('.div-cont')
 var botaoDownload = document.querySelector('.download-arquivo')
 var cliente = document.querySelector('.cliente')
 
@@ -97,12 +98,14 @@ function observacao(){
         produtosAdicionados.innerHTML = 'Nenhum produto adicionado ao orçamento.'
         localValor.style.display = 'none'
         botaoDownload.style.display = 'none' 
-        cliente.style.display = 'none' 
+        cliente.style.display = 'none'
+        secao_contador.style.display = 'none'
     }
     else{
         localValor.style.display = 'flex'
         botaoDownload.style.display = 'flex'
-        cliente.style.display = 'flex' 
+        cliente.style.display = 'flex'
+        secao_contador.style.display = 'flex'
     }
 }
 observacao()
@@ -115,7 +118,7 @@ container.addEventListener('click', function (event) {
         addToCart(nome, valor)
 
         confirmacao.innerHTML = 'Produto Adicionado!'
-        confirmacao.style.backgroundColor = 'tomato'
+        confirmacao.style.backgroundColor = '#f01f29'
         confirmacao.style.color = 'white'
         confirmacao.style.padding = '10px'
         setTimeout(() => {
